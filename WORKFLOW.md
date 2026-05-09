@@ -18,11 +18,11 @@ polling:
   interval_ms: 5000
 
 workspace:
-  root: "/Users/mac/Documents/playing with symphony/agent-card"
+  root: "/Users/mac/Documents/playing with symphony/agent-card-workspaces"
 
 hooks:
   after_create: |
-    cd "/Users/mac/Documents/playing with symphony/agent-card"
+    git clone git@github-personal:moizghumann/agent-card.git .
     npm run setup
 
 agent:
@@ -39,11 +39,9 @@ codex:
 
 # Symphony Agent Workflow
 
-You are working inside the repository at:
+You are working inside a fresh issue workspace cloned from `moizghumann/agent-card`.
 
-`/Users/mac/Documents/playing with symphony/agent-card`
-
-This repository is the source of truth. Work from the repository root. Before doing anything, read:
+The cloned repository is the source of truth. Work from the issue workspace root. Before doing anything, read:
 
 1. `AGENTS.md`
 2. `README.md`
@@ -149,7 +147,7 @@ Move to `Blocked` only when:
 - acceptance criteria conflict with `AGENTS.md` safe-change rules
 - human product/security judgment is required before proceeding
 
-When blocked, leave a Linear comment with the command run, observed failure, likely cause, and smallest next human action.
+When blocked, leave a Linear comment with the command run, observed failure, likely cause, and smallest next human action. If the Linear team does not expose a `Blocked` state, leave the issue in its current active state and make the blocker explicit in the workpad/comment.
 
 ## Ticket Sufficiency
 

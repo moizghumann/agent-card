@@ -14,7 +14,7 @@ echo "Running typecheck..."
 bash scripts/typecheck.sh
 
 echo "Running tests..."
-node --test
+npm test
 
 echo "Running build..."
 bash scripts/build.sh

@@ -7,7 +7,7 @@
     "setup": "bash scripts/setup.sh",
     "start": "node server.js",
     "dev": "node server.js",
-    "test": "node --test",
+    "test": "node --test test/*.test.js",
     "lint": "bash scripts/lint.sh",
     "typecheck": "bash scripts/typecheck.sh",
     "build": "bash scripts/build.sh",
