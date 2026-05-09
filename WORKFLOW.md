@@ -13,22 +13,17 @@ tracker:
     - Cancelled
     - Duplicate
     - "Won't Do"
-
 polling:
   interval_ms: 5000
-
 workspace:
   root: "/Users/mac/Documents/playing with symphony/agent-card-workspaces"
-
 hooks:
   after_create: |
     git clone git@github-personal:moizghumann/agent-card.git .
     npm run setup
-
 agent:
   max_concurrent_agents: 2
-  max_turns: 20
-
+  max_turns: 8
 codex:
   command: codex app-server
   approval_policy: never
@@ -39,124 +34,60 @@ codex:
 
 # Symphony Agent Workflow
 
-You are working inside a fresh issue workspace cloned from `moizghumann/agent-card`.
+You are working on a Linear issue in a fresh clone of `moizghumann/agent-card`.
 
-The cloned repository is the source of truth. Work from the issue workspace root. Before doing anything, read:
+Keep runs small. The Linear ticket is the scope boundary.
 
-1. `AGENTS.md`
-2. `README.md`
-3. relevant docs under `docs/`
-4. the Linear ticket description and comments
+## Start
 
-Follow the repo's local rules before making changes.
+1. Read `AGENTS.md`.
+2. Read the Linear issue title, description, comments, and acceptance criteria.
+3. Inspect only files relevant to the ticket.
+4. Update or create one Linear workpad/comment with a short plan.
+5. Make the smallest safe change.
 
-## Core Behavior
+Do not read large generated files unless required. Avoid `examples/*.json` except for validation or output-schema work.
 
-Complete the Linear ticket with the smallest safe change that satisfies the acceptance criteria. Treat the Linear ticket as the scope boundary.
+## States
 
-Before editing code:
+- `Todo`: move to `In Progress`, then work.
+- `In Progress`: continue work.
+- `Rework`: address review feedback, validate again.
+- `Merging`: final merge/landing state.
+- `Blocked`: use only for real missing auth, permissions, secrets, or impossible acceptance criteria.
+- Terminal: `Done`, `Cancelled`, `Duplicate`, `Won't Do`.
 
-1. read the ticket carefully
-2. inspect the relevant files
-3. identify likely affected domains
-4. create or update a Linear workpad/comment with your plan
-5. only then make changes
+If this Linear team does not expose `Blocked`, leave the issue in its current active state and document the blocker in the workpad.
 
-Prefer small, reviewable changes over broad refactors.
+## Required Handoff
 
-## Linear State Model
+Before review or terminal state:
 
-The Linear project uses these statuses:
+1. Run `npm run validate`.
+2. Commit only ticket-related changes.
+3. Push a ticket branch to `origin`.
+4. Open a draft PR against `main`.
+5. Put the PR URL and validation result in the Linear workpad/comment.
 
-```text
-Backlog
-Todo
-In Progress
-Needs Review
-Rework
-Merging
-Blocked
-Done
-Cancelled
-Duplicate
-Won't Do
-```
-
-Active agent states are:
-
-- `Todo`: ticket is ready to pick up.
-- `In Progress`: agent is actively reading, planning, editing, or validating.
-- `Rework`: changes need another pass after review or failed validation.
-- `Merging`: work is approved or ready for final merge handling.
-- `Blocked`: work cannot proceed without human input or unavailable resources.
-
-Terminal states are:
-
-- `Done`: work is complete and validation has been reported.
-- `Cancelled`: work should stop because the ticket is no longer needed.
-- `Duplicate`: work is covered by another ticket.
-- `Won't Do`: work is intentionally not being implemented, with rationale.
-
-`Backlog` and `Needs Review` may exist in Linear, but they are not active execution states for this workflow unless the tracker configuration is updated.
-
-## Completion Behavior
-
-Before moving to a review, merging, or terminal state, the agent must:
-
-1. run `npm run validate`
-2. report changed files
-3. report validation commands and results
-4. note missing environment variables or blocked checks
-5. note any product behavior changes and matching docs/tests updates
-6. open a GitHub draft pull request when files changed
-
-## GitHub Pull Request Behavior
-
-This repository is expected to use:
-
-- default branch: `main`
-- remote: `origin`
-- GitHub repo: `moizghumann/agent-card`
-
-When a ticket changes files, the agent must:
-
-1. create a ticket-scoped branch from latest `main`
-2. commit only the ticket-related changes
-3. push the branch to `origin`
-4. open a draft GitHub pull request against `main`
-5. include the Linear ticket identifier or URL in the PR body when available
-6. include validation results in the PR body
-7. comment in Linear with the PR URL and validation result
-8. move the ticket to the appropriate review/merging state according to the tracker
-
-Suggested branch naming:
+Branch format:
 
 ```text
 agent/<linear-id>-short-description
 ```
 
-If GitHub credentials, `gh`, or push access are unavailable, do not mark the ticket `Done`. Move or leave it `Blocked` and comment with the exact missing capability.
+PR body must include:
 
-## Blocking Rules
+- Linear issue identifier or URL
+- changed files summary
+- validation command and result
+- remaining gaps or blockers
 
-Move to `Blocked` only when:
+If no files changed, do not open a PR; update Linear with the validation/result instead.
 
-- the ticket requires network access and live scans cannot run
-- the ticket explicitly requires OpenRouter and `OPENROUTER_API_KEY` is unavailable
-- validation cannot run because the local environment is broken
-- acceptance criteria conflict with `AGENTS.md` safe-change rules
-- human product/security judgment is required before proceeding
+## Repo Rules
 
-When blocked, leave a Linear comment with the command run, observed failure, likely cause, and smallest next human action. If the Linear team does not expose a `Blocked` state, leave the issue in its current active state and make the blocker explicit in the workpad/comment.
-
-## Ticket Sufficiency
-
-A Linear ticket should provide enough context for an agent to start:
-
-- desired outcome and acceptance criteria
-- likely affected product area, if known
-- whether product behavior may change
-- expected validation scope
-- required environment variables or live-network needs
-
-If the ticket lacks critical context, ask for clarification before broad implementation.
+- Follow `AGENTS.md` and relevant docs under `docs/`.
+- Do not broaden scope beyond the ticket.
+- Do not change product behavior unless the ticket asks for it.
+- Prefer deterministic tests and `npm run validate` over live network checks.
+- If GitHub auth, `gh`, or push access fails, document the exact command/error and stop as blocked.
