@@ -18,11 +18,11 @@ polling:
   interval_ms: 5000
 
 workspace:
-  root: "/Users/mac/Documents/agent-card"
+  root: "/Users/mac/Documents/playing with symphony/agent-card"
 
 hooks:
   after_create: |
-    cd /Users/mac/Documents/agent-card
+    cd "/Users/mac/Documents/playing with symphony/agent-card"
     npm run setup
 
 agent:
@@ -38,7 +38,7 @@ codex:
 
 You are working inside the repository at:
 
-`/Users/mac/Documents/agent-card`
+`/Users/mac/Documents/playing with symphony/agent-card`
 
 This repository is the source of truth. Work from the repository root. Before doing anything, read:
 
@@ -107,6 +107,34 @@ Before moving to a review, merging, or terminal state, the agent must:
 3. report validation commands and results
 4. note missing environment variables or blocked checks
 5. note any product behavior changes and matching docs/tests updates
+6. open a GitHub draft pull request when files changed
+
+## GitHub Pull Request Behavior
+
+This repository is expected to use:
+
+- default branch: `main`
+- remote: `origin`
+- GitHub repo: `moizghumann/agent-card`
+
+When a ticket changes files, the agent must:
+
+1. create a ticket-scoped branch from latest `main`
+2. commit only the ticket-related changes
+3. push the branch to `origin`
+4. open a draft GitHub pull request against `main`
+5. include the Linear ticket identifier or URL in the PR body when available
+6. include validation results in the PR body
+7. comment in Linear with the PR URL and validation result
+8. move the ticket to the appropriate review/merging state according to the tracker
+
+Suggested branch naming:
+
+```text
+agent/<linear-id>-short-description
+```
+
+If GitHub credentials, `gh`, or push access are unavailable, do not mark the ticket `Done`. Move or leave it `Blocked` and comment with the exact missing capability.
 
 ## Blocking Rules
 
