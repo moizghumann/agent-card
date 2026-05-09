@@ -12,6 +12,10 @@ npm run dev
 
 Open `http://localhost:3000`, enter a public business URL, and click **Analyze**.
 
+## Local Development
+
+Run `npm run setup` when preparing a fresh checkout. Before handing off changes, run `npm run validate`. Future agents should read `AGENTS.md` for repository-specific instructions before editing.
+
 ## OpenRouter
 
 The app can use OpenRouter to refine the business map and generate the agent card more
