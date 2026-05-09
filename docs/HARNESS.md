@@ -12,6 +12,9 @@ This repo follows the harness-engineering pattern: keep the active prompt small,
 
 ## Mechanical Checks
 
+PR handoff requires a writable Git checkout. Symphony uses `danger-full-access` for Codex turns so agents can create branches, commit, push, and open draft PRs from isolated issue clones.
+
+
 `npm run healthcheck` runs `scripts/harness-check.js`, which verifies the agent entrypoints, required docs, package scripts, and Symphony workflow guardrails.
 
 The harness intentionally keeps `AGENTS.md` and `WORKFLOW.md` line-limited so context budget goes to the ticket and relevant code, not startup ceremony.

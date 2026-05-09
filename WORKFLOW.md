@@ -7,12 +7,10 @@ tracker:
     - In Progress
     - Rework
     - Merging
-    - Blocked
   terminal_states:
     - Done
-    - Cancelled
+    - Canceled
     - Duplicate
-    - "Won't Do"
 polling:
   interval_ms: 5000
 workspace:
@@ -27,9 +25,9 @@ agent:
 codex:
   command: codex app-server
   approval_policy: never
-  thread_sandbox: workspace-write
+  thread_sandbox: danger-full-access
   turn_sandbox_policy:
-    type: workspaceWrite
+    type: dangerFullAccess
 ---
 
 # Symphony Agent Workflow
@@ -54,10 +52,9 @@ Do not read large generated files unless required. Avoid `examples/*.json` excep
 - `In Progress`: continue work.
 - `Rework`: address review feedback, validate again.
 - `Merging`: final merge/landing state.
-- `Blocked`: use only for real missing auth, permissions, secrets, or impossible acceptance criteria.
-- Terminal: `Done`, `Cancelled`, `Duplicate`, `Won't Do`.
+- Terminal: `Done`, `Canceled`, `Duplicate`.
 
-If this Linear team does not expose `Blocked`, leave the issue in its current active state and document the blocker in the workpad.
+This Linear team does not expose `Blocked`; leave the issue in its current active state and document the blocker in the workpad.
 
 ## Required Handoff
 
@@ -90,4 +87,4 @@ If no files changed, do not open a PR; update Linear with the validation/result 
 - Do not broaden scope beyond the ticket.
 - Do not change product behavior unless the ticket asks for it.
 - Prefer deterministic tests and `npm run validate` over live network checks.
-- If GitHub auth, `gh`, or push access fails, document the exact command/error and stop as blocked.
+- If GitHub auth, `gh`, push access, or `.git` write access fails, document the exact command/error and stop as blocked.

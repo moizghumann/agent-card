@@ -60,6 +60,8 @@ if (workflow) {
     'agent-card-workspaces',
     'git clone git@github-personal:moizghumann/agent-card.git .',
     'approval_policy: never',
+    'thread_sandbox: danger-full-access',
+    'type: dangerFullAccess',
     'Do not read large generated files unless required',
     'npm run validate',
     'Open a draft PR against `main`'
