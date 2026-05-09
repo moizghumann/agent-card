@@ -1,0 +1,2316 @@
+{
+  "inputUrl": "https://basecamp.com/",
+  "analyzedAt": "2026-05-09T11:26:48.262Z",
+  "scan": {
+    "requestedMaxPages": 8,
+    "pagesScanned": 8,
+    "pagesDiscovered": 94,
+    "usedLlmForBusinessMap": false,
+    "usedLlmForAgentCard": false,
+    "warnings": []
+  },
+  "businessMap": {
+    "mapVersion": "1.0",
+    "scope": {
+      "startUrl": "https://basecamp.com/",
+      "pagesScanned": 8,
+      "crawlLimit": 8,
+      "method": "same-site HTML crawl with deterministic evidence extraction"
+    },
+    "pagesFound": [
+      {
+        "url": "https://basecamp.com/",
+        "anchorText": "Start URL",
+        "sourceUrl": "https://basecamp.com/",
+        "scanned": true,
+        "title": "Basecamp — Project management software, online collaboration"
+      },
+      {
+        "url": "https://basecamp.com/customers",
+        "anchorText": "Real world results",
+        "sourceUrl": "https://basecamp.com/",
+        "scanned": true,
+        "title": "Basecamp — Customer Testimonials"
+      },
+      {
+        "url": "https://basecamp.com/paths",
+        "anchorText": "Paths",
+        "sourceUrl": "https://basecamp.com/",
+        "scanned": true,
+        "title": "Basecamp — The people’s path to Basecamp"
+      },
+      {
+        "url": "https://basecamp.com/pricing",
+        "anchorText": "Pricing",
+        "sourceUrl": "https://basecamp.com/",
+        "scanned": true,
+        "title": "Basecamp — Pricing"
+      },
+      {
+        "url": "https://launchpad.37signals.com/signin",
+        "anchorText": "Sign in",
+        "sourceUrl": "https://basecamp.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://basecamp.com/underdogs",
+        "anchorText": "designed for smaller, hungrier businesses",
+        "sourceUrl": "https://basecamp.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://basecamp.com/books",
+        "anchorText": "books on how to run a business",
+        "sourceUrl": "https://basecamp.com/",
+        "scanned": true,
+        "title": "Basecamp — Books we’ve written"
+      },
+      {
+        "url": "https://37signals.com/",
+        "anchorText": "37signals",
+        "sourceUrl": "https://basecamp.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://basecamp.com/handbook",
+        "anchorText": "employee handbook",
+        "sourceUrl": "https://basecamp.com/",
+        "scanned": true,
+        "title": "The 37signals Employee Handbook"
+      },
+      {
+        "url": "https://www.37status.com/",
+        "anchorText": "Status Page",
+        "sourceUrl": "https://basecamp.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://37signals.com/policies/refund/",
+        "anchorText": "Our refund policy",
+        "sourceUrl": "https://basecamp.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://37signals.com/policies/security/",
+        "anchorText": "full security write-up",
+        "sourceUrl": "https://basecamp.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://37signals.com/policies/security/37signals%20Security%20Overview.pdf",
+        "anchorText": "prepared a summary security PDF",
+        "sourceUrl": "https://basecamp.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://3.basecamp-help.com/article/150-export-your-basecamp-data",
+        "anchorText": "Here’s how exporting works",
+        "sourceUrl": "https://basecamp.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://github.com/basecamp/bc3-api",
+        "anchorText": "Basecamp has a full-featured API (docs are hosted on GitHub)",
+        "sourceUrl": "https://basecamp.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://basecamp.com/integrations",
+        "anchorText": "our Integrations page",
+        "sourceUrl": "https://basecamp.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://basecamp.com/support/testimonials",
+        "anchorText": "Our customer support is widely considered to be among the best of the best.",
+        "sourceUrl": "https://basecamp.com/",
+        "scanned": true,
+        "title": "Basecamp — Support Testimonials"
+      },
+      {
+        "url": "https://basecamp.com/support",
+        "anchorText": "ask support a question",
+        "sourceUrl": "https://basecamp.com/",
+        "scanned": true,
+        "title": "Basecamp — Get help from the Basecamp support team"
+      },
+      {
+        "url": "https://basecamp.com/learn",
+        "anchorText": "watch tutorials",
+        "sourceUrl": "https://basecamp.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://3.basecamp-help.com/",
+        "anchorText": "review the help guides",
+        "sourceUrl": "https://basecamp.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://basecamp.com/classes",
+        "anchorText": "attend a live walkthrough class and Q&A",
+        "sourceUrl": "https://basecamp.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://basecamp.com/apps",
+        "anchorText": "whenever and wherever you are",
+        "sourceUrl": "https://basecamp.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://3.basecamp-help.com/article/937-basecamp-pwa",
+        "anchorText": "Desktop apps",
+        "sourceUrl": "https://basecamp.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://apps.apple.com/us/app/basecamp-project-management/id1015603248",
+        "anchorText": "iOS",
+        "sourceUrl": "https://basecamp.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://play.google.com/store/apps/details?id=com.basecamp.bc3",
+        "anchorText": "Android",
+        "sourceUrl": "https://basecamp.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://basecamp.com/newsletter",
+        "anchorText": "our newsletter",
+        "sourceUrl": "https://basecamp.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://basecamp.com/help",
+        "anchorText": "read the help guides",
+        "sourceUrl": "https://basecamp.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://www.hey.com/",
+        "anchorText": "If you love Basecamp, you’ll love HEY — our delightfully fresh take on email + calendar",
+        "sourceUrl": "https://basecamp.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://basecamp.com/new",
+        "anchorText": "What’s new",
+        "sourceUrl": "https://basecamp.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://basecamp.com/about",
+        "anchorText": "Where we came from",
+        "sourceUrl": "https://basecamp.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://basecamp.com/guides/how-we-communicate",
+        "anchorText": "How we communicate",
+        "sourceUrl": "https://basecamp.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://basecamp.com/guides/how-we-make-decisions",
+        "anchorText": "How we make decisions",
+        "sourceUrl": "https://basecamp.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://basecamp.com/guides/why-we-choose-profit",
+        "anchorText": "Why we choose profit",
+        "sourceUrl": "https://basecamp.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://basecamp.com/guides/group-chat-problems",
+        "anchorText": "Group chat problems",
+        "sourceUrl": "https://basecamp.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://basecamp.com/guides/seven-shipping-principles",
+        "anchorText": "Seven shipping principles",
+        "sourceUrl": "https://basecamp.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://basecamp.com/small",
+        "anchorText": "Come small, come all",
+        "sourceUrl": "https://basecamp.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://basecamp.com/overkill",
+        "anchorText": "Kill overkill",
+        "sourceUrl": "https://basecamp.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://basecamp.com/cloud-exit",
+        "anchorText": "Leaving the Cloud",
+        "sourceUrl": "https://basecamp.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://basecamp.com/before-and-after",
+        "anchorText": "Night & day",
+        "sourceUrl": "https://basecamp.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://basecamp.com/hill-charts",
+        "anchorText": "See where projects really stand",
+        "sourceUrl": "https://basecamp.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://basecamp.com/justletmedomyjob",
+        "anchorText": "JUST LET ME DO MY JOB",
+        "sourceUrl": "https://basecamp.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://basecamp.com/accessibility",
+        "anchorText": "Basecamp is for everyone",
+        "sourceUrl": "https://basecamp.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://basecamp.com/community",
+        "anchorText": "Basecamp community",
+        "sourceUrl": "https://basecamp.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://basecamp.com/agents",
+        "anchorText": "Bring your AI agents to Basecamp",
+        "sourceUrl": "https://basecamp.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://www.fizzy.do/",
+        "anchorText": "Fizzy™",
+        "sourceUrl": "https://basecamp.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://updates.37signals.com/",
+        "anchorText": "Updates",
+        "sourceUrl": "https://basecamp.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://37signals.com/policies",
+        "anchorText": "Policies",
+        "sourceUrl": "https://basecamp.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://3.basecamp.com/signup/account/new?plan=free_v1",
+        "anchorText": "Sign up free",
+        "sourceUrl": "https://basecamp.com/pricing",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://3.basecamp-help.com/article/897-timesheet",
+        "anchorText": "Timesheet",
+        "sourceUrl": "https://basecamp.com/pricing",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://3.basecamp-help.com/article/687-admin-pro-pack",
+        "anchorText": "Admin Pro Pack",
+        "sourceUrl": "https://basecamp.com/pricing",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://3.basecamp.com/signup/account/new?plan=per_user_v3",
+        "anchorText": "Try it free for 30 days",
+        "sourceUrl": "https://basecamp.com/pricing",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://3.basecamp.com/signup/account/new?plan=pro_unlimited_yearly_v1",
+        "anchorText": "Try it free for 60 days",
+        "sourceUrl": "https://basecamp.com/pricing",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=AdazpMjeteE",
+        "anchorText": "this video shows you how it works",
+        "sourceUrl": "https://basecamp.com/pricing",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://basecamp-goods.com/products/shapeup",
+        "anchorText": "Buy the print edition",
+        "sourceUrl": "https://basecamp.com/books",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://basecamp.com/shapeup",
+        "anchorText": "Read it online",
+        "sourceUrl": "https://basecamp.com/books",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://basecamp.com/shapeup/shape-up.pdf",
+        "anchorText": "Download a PDF",
+        "sourceUrl": "https://basecamp.com/books",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://www.amazon.com/Doesnt-Have-Be-Crazy-Work/dp/0062874780",
+        "anchorText": "Amazon",
+        "sourceUrl": "https://basecamp.com/books",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://books.apple.com/us/book/it-doesnt-have-to-be-crazy-at-work/id1350572012",
+        "anchorText": "Apple Books",
+        "sourceUrl": "https://basecamp.com/books",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://www.barnesandnoble.com/w/it-doesnt-have-to-be-crazy-at-work-jason-fried/1128018111",
+        "anchorText": "Barnes & Noble",
+        "sourceUrl": "https://basecamp.com/books",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://www.indiebound.org/book/9780062874788",
+        "anchorText": "Indiebound",
+        "sourceUrl": "https://basecamp.com/books",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://www.porchlightbooks.com/product/it-doesnt-have-to-be-crazy-at-work--jason-fried",
+        "anchorText": "Porchlight",
+        "sourceUrl": "https://basecamp.com/books",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://www.amazon.com/Rework-Jason-Fried/dp/0307463745",
+        "anchorText": "Amazon",
+        "sourceUrl": "https://basecamp.com/books",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://books.apple.com/us/book/rework/id421026168",
+        "anchorText": "Apple Books",
+        "sourceUrl": "https://basecamp.com/books",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://www.barnesandnoble.com/w/rework-jason-fried/1102048884",
+        "anchorText": "Barnes & Noble",
+        "sourceUrl": "https://basecamp.com/books",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://www.indiebound.org/book/9780307463746",
+        "anchorText": "Indiebound",
+        "sourceUrl": "https://basecamp.com/books",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://www.porchlightbooks.com/product/rework--jason-fried",
+        "anchorText": "Porchlight",
+        "sourceUrl": "https://basecamp.com/books",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://www.amazon.com/Remote-Office-Not-Required/dp/0804137501",
+        "anchorText": "Amazon",
+        "sourceUrl": "https://basecamp.com/books",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://books.apple.com/us/book/remote/id625981856",
+        "anchorText": "Apple Books",
+        "sourceUrl": "https://basecamp.com/books",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://www.barnesandnoble.com/w/remote-jason-fried/1114307851",
+        "anchorText": "Barnes & Noble",
+        "sourceUrl": "https://basecamp.com/books",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://www.indiebound.org/book/9780804137508",
+        "anchorText": "Indiebound",
+        "sourceUrl": "https://basecamp.com/books",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://www.porchlightbooks.com/product/remote-office-not-required--jason-fried",
+        "anchorText": "Porchlight",
+        "sourceUrl": "https://basecamp.com/books",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://basecamp.com/gettingreal",
+        "anchorText": "Read it online",
+        "sourceUrl": "https://basecamp.com/books",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://basecamp.com/gettingreal/getting-real.pdf",
+        "anchorText": "Download a PDF",
+        "sourceUrl": "https://basecamp.com/books",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://www.amazon.com/Getting-Real-Smarter-Successful-Application/dp/0578012812",
+        "anchorText": "Amazon",
+        "sourceUrl": "https://basecamp.com/books",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://books.apple.com/us/book/getting-real/id365490630",
+        "anchorText": "Apple Books",
+        "sourceUrl": "https://basecamp.com/books",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://www.barnesandnoble.com/w/getting-real-37signals/1113544045",
+        "anchorText": "Barnes & Noble",
+        "sourceUrl": "https://basecamp.com/books",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://www.mozilla.org/en-US/firefox/new/",
+        "anchorText": "Firefox",
+        "sourceUrl": "https://basecamp.com/handbook",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://www.google.com/chrome/",
+        "anchorText": "Chrome",
+        "sourceUrl": "https://basecamp.com/handbook",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://basecamp.com/handbook/getting-started",
+        "anchorText": "Start reading →",
+        "sourceUrl": "https://basecamp.com/handbook",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://basecamp.com/handbook/benefits-and-perks",
+        "anchorText": "Benefits & Perks",
+        "sourceUrl": "https://basecamp.com/handbook",
+        "scanned": false,
+        "title": null
+      }
+    ],
+    "business": {
+      "name": "Basecamp",
+      "description": "Trusted by millions, Basecamp puts everything you need to get work done in one place. It’s the calm, organized way to manage projects, work with clients, and communicate company-wide.",
+      "likelyTypes": [
+        "software_or_technology"
+      ],
+      "confidence": "medium",
+      "evidence": [
+        "ev_001",
+        "ev_002"
+      ]
+    },
+    "offerings": [
+      {
+        "name": "Hundreds of companies have written custom integrations, and our Integrations page links up third-party soluti...",
+        "category": "pricing_or_plan",
+        "evidence": [
+          "ev_003"
+        ]
+      },
+      {
+        "name": "Pick the package that fits you best.",
+        "category": "unknown",
+        "evidence": [
+          "ev_004"
+        ]
+      },
+      {
+        "name": "Basecamp Free",
+        "category": "unknown",
+        "evidence": [
+          "ev_005"
+        ]
+      },
+      {
+        "name": "Run one project at a time.",
+        "category": "unknown",
+        "evidence": [
+          "ev_006"
+        ]
+      },
+      {
+        "name": "Basecamp Plus",
+        "category": "unknown",
+        "evidence": [
+          "ev_007"
+        ]
+      },
+      {
+        "name": "Ideal for freelancers, startups, and smaller teams.",
+        "category": "unknown",
+        "evidence": [
+          "ev_008"
+        ]
+      },
+      {
+        "name": "Basecamp Pro Unlimited",
+        "category": "unknown",
+        "evidence": [
+          "ev_009"
+        ]
+      },
+      {
+        "name": "The same core features are included with every package.",
+        "category": "unknown",
+        "evidence": [
+          "ev_010"
+        ]
+      },
+      {
+        "name": "A stable, well-run company is part of the deal, too.",
+        "category": "unknown",
+        "evidence": [
+          "ev_011"
+        ]
+      },
+      {
+        "name": "How do customers feel after switching to Basecamp?",
+        "category": "unknown",
+        "evidence": [
+          "ev_012"
+        ]
+      },
+      {
+        "name": "Risk-free, cancel anytime, no long-term lock-in.",
+        "category": "unknown",
+        "evidence": [
+          "ev_013"
+        ]
+      },
+      {
+        "name": "A big boost for bootstrappers & small businesses.",
+        "category": "software_or_tool",
+        "evidence": [
+          "ev_014"
+        ]
+      }
+    ],
+    "customerActions": [
+      {
+        "action": "contact_business",
+        "label": "Contact the business",
+        "targetUrl": "https://basecamp.com/",
+        "mechanism": "button_or_text",
+        "confidence": "low",
+        "evidence": [
+          "ev_020"
+        ]
+      },
+      {
+        "action": "buy_or_checkout",
+        "label": "Buy, order, or checkout",
+        "targetUrl": "https://basecamp.com/pricing",
+        "mechanism": "link",
+        "confidence": "medium",
+        "evidence": [
+          "ev_021"
+        ]
+      },
+      {
+        "action": "sign_in",
+        "label": "Sign in or access an account",
+        "targetUrl": "https://launchpad.37signals.com/signin",
+        "mechanism": "link",
+        "confidence": "medium",
+        "evidence": [
+          "ev_022"
+        ]
+      },
+      {
+        "action": "get_support",
+        "label": "Get support or help",
+        "targetUrl": "https://3.basecamp-help.com/article/150-export-your-basecamp-data",
+        "mechanism": "link",
+        "confidence": "medium",
+        "evidence": [
+          "ev_023"
+        ]
+      }
+    ],
+    "toolsFormsLinks": [
+      {
+        "type": "form",
+        "label": "Contact or lead form",
+        "url": "https://basecamp.us2.list-manage.com/subscribe/post-json?u=2a145c60b16248b65e46a799a&id=476312b66e&c=?",
+        "method": "POST",
+        "fields": [
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "b_2a145c60b16248b65e46a799a_476312b66e",
+            "label": "mce"
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "tags",
+            "label": ""
+          },
+          {
+            "tag": "input",
+            "type": "email",
+            "name": "EMAIL",
+            "label": "Your email address"
+          }
+        ],
+        "evidence": [
+          "ev_024"
+        ]
+      },
+      {
+        "type": "payment_or_cart",
+        "label": "Pricing",
+        "url": "https://basecamp.com/pricing",
+        "external": false,
+        "evidence": [
+          "ev_025"
+        ]
+      },
+      {
+        "type": "auth",
+        "label": "Sign in",
+        "url": "https://launchpad.37signals.com/signin",
+        "external": true,
+        "evidence": [
+          "ev_026"
+        ]
+      },
+      {
+        "type": "auth",
+        "label": "Sign up free",
+        "url": "https://3.basecamp.com/signup/account/new?plan=free_v1",
+        "external": true,
+        "evidence": [
+          "ev_030"
+        ]
+      },
+      {
+        "type": "auth",
+        "label": "Try it free for 30 days",
+        "url": "https://3.basecamp.com/signup/account/new?plan=per_user_v3",
+        "external": true,
+        "evidence": [
+          "ev_031"
+        ]
+      },
+      {
+        "type": "auth",
+        "label": "Try it free for 60 days",
+        "url": "https://3.basecamp.com/signup/account/new?plan=pro_unlimited_yearly_v1",
+        "external": true,
+        "evidence": [
+          "ev_032"
+        ]
+      },
+      {
+        "type": "social",
+        "label": "this video shows you how it works",
+        "url": "https://www.youtube.com/watch?v=AdazpMjeteE",
+        "external": true,
+        "evidence": [
+          "ev_033"
+        ]
+      },
+      {
+        "type": "form",
+        "label": "Contact or lead form",
+        "url": "https://dash.37signals.com/support/tickets",
+        "method": "POST",
+        "fields": [
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "ticket[full_name]",
+            "label": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "ticket[nonce]",
+            "label": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "ticket[user_name]",
+            "label": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "ticket[has_classic_account]",
+            "label": ""
+          },
+          {
+            "tag": "input",
+            "type": "hidden",
+            "name": "ticket[source]",
+            "label": ""
+          },
+          {
+            "tag": "select",
+            "type": "select",
+            "name": "ticket[issue_type]",
+            "label": ""
+          },
+          {
+            "tag": "textarea",
+            "type": "textarea",
+            "name": "ticket[details]",
+            "label": "Enter your message…"
+          },
+          {
+            "tag": "input",
+            "type": "file",
+            "name": "ticket[files][]",
+            "label": ""
+          },
+          {
+            "tag": "input",
+            "type": "email",
+            "name": "ticket[email_address]",
+            "label": "Enter your email address…"
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "ticket[account_url]",
+            "label": "Enter your account URL…"
+          }
+        ],
+        "evidence": [
+          "ev_037"
+        ]
+      }
+    ],
+    "visibleInfo": {
+      "contact": [
+        {
+          "kind": "email",
+          "value": "jason@basecamp.com",
+          "evidence": [
+            "ev_050"
+          ]
+        },
+        {
+          "kind": "email",
+          "value": "david@basecamp.com",
+          "evidence": [
+            "ev_053"
+          ]
+        }
+      ],
+      "payment": [
+        {
+          "kind": "payment_or_purchase_link",
+          "value": "https://basecamp.com/pricing",
+          "evidence": [
+            "ev_054"
+          ]
+        },
+        {
+          "kind": "payment_or_purchase_link",
+          "value": "https://basecamp-goods.com/products/shapeup",
+          "evidence": [
+            "ev_063"
+          ]
+        }
+      ],
+      "auth": [
+        {
+          "kind": "auth_link",
+          "value": "https://launchpad.37signals.com/signin",
+          "evidence": [
+            "ev_055"
+          ]
+        },
+        {
+          "kind": "auth_link",
+          "value": "https://3.basecamp.com/signup/account/new?plan=free_v1",
+          "evidence": [
+            "ev_058"
+          ]
+        },
+        {
+          "kind": "auth_link",
+          "value": "https://3.basecamp.com/signup/account/new?plan=per_user_v3",
+          "evidence": [
+            "ev_059"
+          ]
+        },
+        {
+          "kind": "auth_link",
+          "value": "https://3.basecamp.com/signup/account/new?plan=pro_unlimited_yearly_v1",
+          "evidence": [
+            "ev_060"
+          ]
+        }
+      ],
+      "locations": [],
+      "hours": []
+    },
+    "missingOrUnclear": [],
+    "evidenceIndex": [
+      {
+        "id": "ev_001",
+        "label": "business_name",
+        "url": "https://basecamp.com/",
+        "quote": "Basecamp — Project management software, online collaboration"
+      },
+      {
+        "id": "ev_002",
+        "label": "business_description",
+        "url": "https://basecamp.com/",
+        "quote": "Trusted by millions, Basecamp puts everything you need to get work done in one place. It’s the calm, organized way to manage projects, work with clients, and communicate company-wide."
+      },
+      {
+        "id": "ev_003",
+        "label": "offering_snippet",
+        "url": "https://basecamp.com/",
+        "quote": "Hundreds of companies have written custom integrations, and our Integrations page links up third-party solutions for invoicing, accounting, time tracking, reporting, planning, asset management, contracts, proposals, and more."
+      },
+      {
+        "id": "ev_004",
+        "label": "offering_heading",
+        "url": "https://basecamp.com/pricing",
+        "quote": "Pick the package that fits you best."
+      },
+      {
+        "id": "ev_005",
+        "label": "offering_heading",
+        "url": "https://basecamp.com/pricing",
+        "quote": "Basecamp Free"
+      },
+      {
+        "id": "ev_006",
+        "label": "offering_heading",
+        "url": "https://basecamp.com/pricing",
+        "quote": "Run one project at a time."
+      },
+      {
+        "id": "ev_007",
+        "label": "offering_heading",
+        "url": "https://basecamp.com/pricing",
+        "quote": "Basecamp Plus"
+      },
+      {
+        "id": "ev_008",
+        "label": "offering_heading",
+        "url": "https://basecamp.com/pricing",
+        "quote": "Ideal for freelancers, startups, and smaller teams."
+      },
+      {
+        "id": "ev_009",
+        "label": "offering_heading",
+        "url": "https://basecamp.com/pricing",
+        "quote": "Basecamp Pro Unlimited"
+      },
+      {
+        "id": "ev_010",
+        "label": "offering_heading",
+        "url": "https://basecamp.com/pricing",
+        "quote": "The same core features are included with every package."
+      },
+      {
+        "id": "ev_011",
+        "label": "offering_heading",
+        "url": "https://basecamp.com/pricing",
+        "quote": "A stable, well-run company is part of the deal, too."
+      },
+      {
+        "id": "ev_012",
+        "label": "offering_heading",
+        "url": "https://basecamp.com/pricing",
+        "quote": "How do customers feel after switching to Basecamp?"
+      },
+      {
+        "id": "ev_013",
+        "label": "offering_heading",
+        "url": "https://basecamp.com/pricing",
+        "quote": "Risk-free, cancel anytime, no long-term lock-in."
+      },
+      {
+        "id": "ev_014",
+        "label": "offering_heading",
+        "url": "https://basecamp.com/pricing",
+        "quote": "A big boost for bootstrappers & small businesses."
+      },
+      {
+        "id": "ev_015",
+        "label": "offering_heading",
+        "url": "https://basecamp.com/pricing",
+        "quote": "Basecamp eliminates the Hassle Tax."
+      },
+      {
+        "id": "ev_016",
+        "label": "offering_heading",
+        "url": "https://basecamp.com/pricing",
+        "quote": "I have questions about pricing…"
+      },
+      {
+        "id": "ev_017",
+        "label": "offering_heading",
+        "url": "https://basecamp.com/support/testimonials",
+        "quote": "At Basecamp, customer service isn’t an afterthought, it’s one of our best features."
+      },
+      {
+        "id": "ev_018",
+        "label": "offering_snippet",
+        "url": "https://basecamp.com/customers",
+        "quote": "Shahid Juma, ECNet Solutions Inc."
+      },
+      {
+        "id": "ev_019",
+        "label": "offering_snippet",
+        "url": "https://basecamp.com/paths",
+        "quote": "We needed solutions, not repackaging.” Then they gave Slack a try “Chaos disguised as communication."
+      },
+      {
+        "id": "ev_020",
+        "label": "customer_action:contact_business",
+        "url": "https://basecamp.com/",
+        "quote": "contact us"
+      },
+      {
+        "id": "ev_021",
+        "label": "customer_action:buy_or_checkout",
+        "url": "https://basecamp.com/",
+        "quote": "Pricing"
+      },
+      {
+        "id": "ev_022",
+        "label": "customer_action:sign_in",
+        "url": "https://basecamp.com/",
+        "quote": "Sign in"
+      },
+      {
+        "id": "ev_023",
+        "label": "customer_action:get_support",
+        "url": "https://basecamp.com/",
+        "quote": "Here’s how exporting works"
+      },
+      {
+        "id": "ev_024",
+        "label": "form",
+        "url": "https://basecamp.com/",
+        "quote": "Subscribe"
+      },
+      {
+        "id": "ev_025",
+        "label": "tool:payment_or_cart",
+        "url": "https://basecamp.com/",
+        "quote": "Pricing -> https://basecamp.com/pricing"
+      },
+      {
+        "id": "ev_026",
+        "label": "tool:auth",
+        "url": "https://basecamp.com/",
+        "quote": "Sign in -> https://launchpad.37signals.com/signin"
+      },
+      {
+        "id": "ev_027",
+        "label": "form",
+        "url": "https://basecamp.com/pricing",
+        "quote": "Subscribe"
+      },
+      {
+        "id": "ev_028",
+        "label": "tool:payment_or_cart",
+        "url": "https://basecamp.com/pricing",
+        "quote": "Pricing -> https://basecamp.com/pricing"
+      },
+      {
+        "id": "ev_029",
+        "label": "tool:auth",
+        "url": "https://basecamp.com/pricing",
+        "quote": "Sign in -> https://launchpad.37signals.com/signin"
+      },
+      {
+        "id": "ev_030",
+        "label": "tool:auth",
+        "url": "https://basecamp.com/pricing",
+        "quote": "Sign up free -> https://3.basecamp.com/signup/account/new?plan=free_v1"
+      },
+      {
+        "id": "ev_031",
+        "label": "tool:auth",
+        "url": "https://basecamp.com/pricing",
+        "quote": "Try it free for 30 days -> https://3.basecamp.com/signup/account/new?plan=per_user_v3"
+      },
+      {
+        "id": "ev_032",
+        "label": "tool:auth",
+        "url": "https://basecamp.com/pricing",
+        "quote": "Try it free for 60 days -> https://3.basecamp.com/signup/account/new?plan=pro_unlimited_yearly_v1"
+      },
+      {
+        "id": "ev_033",
+        "label": "tool:social",
+        "url": "https://basecamp.com/pricing",
+        "quote": "this video shows you how it works -> https://www.youtube.com/watch?v=AdazpMjeteE"
+      },
+      {
+        "id": "ev_034",
+        "label": "form",
+        "url": "https://basecamp.com/books",
+        "quote": "Subscribe"
+      },
+      {
+        "id": "ev_035",
+        "label": "tool:payment_or_cart",
+        "url": "https://basecamp.com/books",
+        "quote": "Pricing -> https://basecamp.com/pricing"
+      },
+      {
+        "id": "ev_036",
+        "label": "tool:auth",
+        "url": "https://basecamp.com/books",
+        "quote": "Sign in -> https://launchpad.37signals.com/signin"
+      },
+      {
+        "id": "ev_037",
+        "label": "form",
+        "url": "https://basecamp.com/support",
+        "quote": "What do you need help with? Required This helps make sure you get the right answer fast. Please select one… I can’t access my account I have a question before I sign up I want to request a feature I have a billing question I’m not receivin..."
+      },
+      {
+        "id": "ev_038",
+        "label": "form",
+        "url": "https://basecamp.com/support",
+        "quote": "Subscribe"
+      },
+      {
+        "id": "ev_039",
+        "label": "tool:payment_or_cart",
+        "url": "https://basecamp.com/support",
+        "quote": "Pricing -> https://basecamp.com/pricing"
+      },
+      {
+        "id": "ev_040",
+        "label": "tool:auth",
+        "url": "https://basecamp.com/support",
+        "quote": "Sign in -> https://launchpad.37signals.com/signin"
+      },
+      {
+        "id": "ev_041",
+        "label": "form",
+        "url": "https://basecamp.com/support/testimonials",
+        "quote": "Subscribe"
+      },
+      {
+        "id": "ev_042",
+        "label": "tool:payment_or_cart",
+        "url": "https://basecamp.com/support/testimonials",
+        "quote": "Pricing -> https://basecamp.com/pricing"
+      },
+      {
+        "id": "ev_043",
+        "label": "tool:auth",
+        "url": "https://basecamp.com/support/testimonials",
+        "quote": "Sign in -> https://launchpad.37signals.com/signin"
+      },
+      {
+        "id": "ev_044",
+        "label": "form",
+        "url": "https://basecamp.com/customers",
+        "quote": "Subscribe"
+      },
+      {
+        "id": "ev_045",
+        "label": "tool:payment_or_cart",
+        "url": "https://basecamp.com/customers",
+        "quote": "Pricing -> https://basecamp.com/pricing"
+      },
+      {
+        "id": "ev_046",
+        "label": "tool:auth",
+        "url": "https://basecamp.com/customers",
+        "quote": "Sign in -> https://launchpad.37signals.com/signin"
+      },
+      {
+        "id": "ev_047",
+        "label": "form",
+        "url": "https://basecamp.com/paths",
+        "quote": "Subscribe"
+      },
+      {
+        "id": "ev_048",
+        "label": "tool:payment_or_cart",
+        "url": "https://basecamp.com/paths",
+        "quote": "Pricing -> https://basecamp.com/pricing"
+      },
+      {
+        "id": "ev_049",
+        "label": "tool:auth",
+        "url": "https://basecamp.com/paths",
+        "quote": "Sign in -> https://launchpad.37signals.com/signin"
+      },
+      {
+        "id": "ev_050",
+        "label": "contact_email",
+        "url": "https://basecamp.com/",
+        "quote": "jason@basecamp.com"
+      },
+      {
+        "id": "ev_051",
+        "label": "contact_email",
+        "url": "https://basecamp.com/",
+        "quote": "jason@basecamp.com"
+      },
+      {
+        "id": "ev_052",
+        "label": "contact_email",
+        "url": "https://basecamp.com/",
+        "quote": "jason@basecamp.com"
+      },
+      {
+        "id": "ev_053",
+        "label": "contact_email",
+        "url": "https://basecamp.com/",
+        "quote": "david@basecamp.com"
+      },
+      {
+        "id": "ev_054",
+        "label": "payment",
+        "url": "https://basecamp.com/",
+        "quote": "Pricing"
+      },
+      {
+        "id": "ev_055",
+        "label": "auth",
+        "url": "https://basecamp.com/",
+        "quote": "Sign in"
+      },
+      {
+        "id": "ev_056",
+        "label": "payment",
+        "url": "https://basecamp.com/pricing",
+        "quote": "Pricing"
+      },
+      {
+        "id": "ev_057",
+        "label": "auth",
+        "url": "https://basecamp.com/pricing",
+        "quote": "Sign in"
+      },
+      {
+        "id": "ev_058",
+        "label": "auth",
+        "url": "https://basecamp.com/pricing",
+        "quote": "Sign up free"
+      },
+      {
+        "id": "ev_059",
+        "label": "auth",
+        "url": "https://basecamp.com/pricing",
+        "quote": "Try it free for 30 days"
+      },
+      {
+        "id": "ev_060",
+        "label": "auth",
+        "url": "https://basecamp.com/pricing",
+        "quote": "Try it free for 60 days"
+      },
+      {
+        "id": "ev_061",
+        "label": "payment",
+        "url": "https://basecamp.com/books",
+        "quote": "Pricing"
+      },
+      {
+        "id": "ev_062",
+        "label": "auth",
+        "url": "https://basecamp.com/books",
+        "quote": "Sign in"
+      },
+      {
+        "id": "ev_063",
+        "label": "payment",
+        "url": "https://basecamp.com/books",
+        "quote": "Buy the print edition"
+      },
+      {
+        "id": "ev_064",
+        "label": "payment",
+        "url": "https://basecamp.com/support",
+        "quote": "Pricing"
+      },
+      {
+        "id": "ev_065",
+        "label": "auth",
+        "url": "https://basecamp.com/support",
+        "quote": "Sign in"
+      },
+      {
+        "id": "ev_066",
+        "label": "payment",
+        "url": "https://basecamp.com/support/testimonials",
+        "quote": "Pricing"
+      },
+      {
+        "id": "ev_067",
+        "label": "auth",
+        "url": "https://basecamp.com/support/testimonials",
+        "quote": "Sign in"
+      },
+      {
+        "id": "ev_068",
+        "label": "payment",
+        "url": "https://basecamp.com/customers",
+        "quote": "Pricing"
+      },
+      {
+        "id": "ev_069",
+        "label": "auth",
+        "url": "https://basecamp.com/customers",
+        "quote": "Sign in"
+      },
+      {
+        "id": "ev_070",
+        "label": "payment",
+        "url": "https://basecamp.com/paths",
+        "quote": "Pricing"
+      },
+      {
+        "id": "ev_071",
+        "label": "auth",
+        "url": "https://basecamp.com/paths",
+        "quote": "Sign in"
+      }
+    ]
+  },
+  "agentCard": {
+    "agentCardVersion": "1.0",
+    "generatedFrom": {
+      "businessMapVersion": "1.0",
+      "startUrl": "https://basecamp.com/",
+      "pagesScanned": 8
+    },
+    "businessIdentity": {
+      "name": "Basecamp",
+      "description": "Trusted by millions, Basecamp puts everything you need to get work done in one place. It’s the calm, organized way to manage projects, work with clients, and communicate company-wide.",
+      "likelyTypes": [
+        "software_or_technology"
+      ],
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "https://basecamp.com/",
+          "quote": "Basecamp — Project management software, online collaboration"
+        },
+        {
+          "source": "https://basecamp.com/",
+          "quote": "Trusted by millions, Basecamp puts everything you need to get work done in one place. It’s the calm, organized way to manage projects, work with clients, and communicate company-wide."
+        }
+      ]
+    },
+    "interactionModel": {
+      "primaryWebsite": "https://basecamp.com/",
+      "customerCapabilities": [
+        {
+          "id": "contact_business",
+          "label": "Contact the business",
+          "status": "available_from_site_evidence",
+          "interactionType": "button_or_text",
+          "targetUrl": "https://basecamp.com/",
+          "evidence": [
+            {
+              "source": "https://basecamp.com/",
+              "quote": "contact us"
+            }
+          ]
+        },
+        {
+          "id": "buy_or_checkout",
+          "label": "Buy, order, or checkout",
+          "status": "available_from_site_evidence",
+          "interactionType": "link",
+          "targetUrl": "https://basecamp.com/pricing",
+          "evidence": [
+            {
+              "source": "https://basecamp.com/",
+              "quote": "Pricing"
+            }
+          ]
+        },
+        {
+          "id": "sign_in",
+          "label": "Sign in or access an account",
+          "status": "available_from_site_evidence",
+          "interactionType": "link",
+          "targetUrl": "https://launchpad.37signals.com/signin",
+          "evidence": [
+            {
+              "source": "https://basecamp.com/",
+              "quote": "Sign in"
+            }
+          ]
+        },
+        {
+          "id": "get_support",
+          "label": "Get support or help",
+          "status": "available_from_site_evidence",
+          "interactionType": "link",
+          "targetUrl": "https://3.basecamp-help.com/article/150-export-your-basecamp-data",
+          "evidence": [
+            {
+              "source": "https://basecamp.com/",
+              "quote": "Here’s how exporting works"
+            }
+          ]
+        }
+      ],
+      "knownTools": [
+        {
+          "type": "form",
+          "label": "Contact or lead form",
+          "url": "https://basecamp.us2.list-manage.com/subscribe/post-json?u=2a145c60b16248b65e46a799a&id=476312b66e&c=?",
+          "method": "POST",
+          "fields": [
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "b_2a145c60b16248b65e46a799a_476312b66e",
+              "label": "mce"
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "tags",
+              "label": ""
+            },
+            {
+              "tag": "input",
+              "type": "email",
+              "name": "EMAIL",
+              "label": "Your email address"
+            }
+          ],
+          "external": false,
+          "evidence": [
+            {
+              "source": "https://basecamp.com/",
+              "quote": "Subscribe"
+            }
+          ]
+        },
+        {
+          "type": "payment_or_cart",
+          "label": "Pricing",
+          "url": "https://basecamp.com/pricing",
+          "method": null,
+          "fields": null,
+          "external": false,
+          "evidence": [
+            {
+              "source": "https://basecamp.com/",
+              "quote": "Pricing -> https://basecamp.com/pricing"
+            }
+          ]
+        },
+        {
+          "type": "auth",
+          "label": "Sign in",
+          "url": "https://launchpad.37signals.com/signin",
+          "method": null,
+          "fields": null,
+          "external": true,
+          "evidence": [
+            {
+              "source": "https://basecamp.com/",
+              "quote": "Sign in -> https://launchpad.37signals.com/signin"
+            }
+          ]
+        },
+        {
+          "type": "auth",
+          "label": "Sign up free",
+          "url": "https://3.basecamp.com/signup/account/new?plan=free_v1",
+          "method": null,
+          "fields": null,
+          "external": true,
+          "evidence": [
+            {
+              "source": "https://basecamp.com/pricing",
+              "quote": "Sign up free -> https://3.basecamp.com/signup/account/new?plan=free_v1"
+            }
+          ]
+        },
+        {
+          "type": "auth",
+          "label": "Try it free for 30 days",
+          "url": "https://3.basecamp.com/signup/account/new?plan=per_user_v3",
+          "method": null,
+          "fields": null,
+          "external": true,
+          "evidence": [
+            {
+              "source": "https://basecamp.com/pricing",
+              "quote": "Try it free for 30 days -> https://3.basecamp.com/signup/account/new?plan=per_user_v3"
+            }
+          ]
+        },
+        {
+          "type": "auth",
+          "label": "Try it free for 60 days",
+          "url": "https://3.basecamp.com/signup/account/new?plan=pro_unlimited_yearly_v1",
+          "method": null,
+          "fields": null,
+          "external": true,
+          "evidence": [
+            {
+              "source": "https://basecamp.com/pricing",
+              "quote": "Try it free for 60 days -> https://3.basecamp.com/signup/account/new?plan=pro_unlimited_yearly_v1"
+            }
+          ]
+        },
+        {
+          "type": "social",
+          "label": "this video shows you how it works",
+          "url": "https://www.youtube.com/watch?v=AdazpMjeteE",
+          "method": null,
+          "fields": null,
+          "external": true,
+          "evidence": [
+            {
+              "source": "https://basecamp.com/pricing",
+              "quote": "this video shows you how it works -> https://www.youtube.com/watch?v=AdazpMjeteE"
+            }
+          ]
+        },
+        {
+          "type": "form",
+          "label": "Contact or lead form",
+          "url": "https://dash.37signals.com/support/tickets",
+          "method": "POST",
+          "fields": [
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "ticket[full_name]",
+              "label": ""
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "ticket[nonce]",
+              "label": ""
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "ticket[user_name]",
+              "label": ""
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "ticket[has_classic_account]",
+              "label": ""
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "ticket[source]",
+              "label": ""
+            },
+            {
+              "tag": "select",
+              "type": "select",
+              "name": "ticket[issue_type]",
+              "label": ""
+            },
+            {
+              "tag": "textarea",
+              "type": "textarea",
+              "name": "ticket[details]",
+              "label": "Enter your message…"
+            },
+            {
+              "tag": "input",
+              "type": "file",
+              "name": "ticket[files][]",
+              "label": ""
+            },
+            {
+              "tag": "input",
+              "type": "email",
+              "name": "ticket[email_address]",
+              "label": "Enter your email address…"
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "ticket[account_url]",
+              "label": "Enter your account URL…"
+            }
+          ],
+          "external": false,
+          "evidence": [
+            {
+              "source": "https://basecamp.com/support",
+              "quote": "What do you need help with? Required This helps make sure you get the right answer fast. Please select one… I can’t access my account I have a question before I sign up I want to request a feature I have a billing question I’m not receivin..."
+            }
+          ]
+        }
+      ],
+      "contactChannels": [
+        {
+          "kind": "email",
+          "value": "jason@basecamp.com",
+          "evidence": [
+            {
+              "source": "https://basecamp.com/",
+              "quote": "jason@basecamp.com"
+            }
+          ]
+        },
+        {
+          "kind": "email",
+          "value": "david@basecamp.com",
+          "evidence": [
+            {
+              "source": "https://basecamp.com/",
+              "quote": "david@basecamp.com"
+            }
+          ]
+        }
+      ],
+      "paymentOrPurchaseSignals": [
+        {
+          "kind": "payment_or_purchase_link",
+          "value": "https://basecamp.com/pricing",
+          "evidence": [
+            {
+              "source": "https://basecamp.com/",
+              "quote": "Pricing"
+            }
+          ]
+        },
+        {
+          "kind": "payment_or_purchase_link",
+          "value": "https://basecamp-goods.com/products/shapeup",
+          "evidence": [
+            {
+              "source": "https://basecamp.com/books",
+              "quote": "Buy the print edition"
+            }
+          ]
+        }
+      ],
+      "authSignals": [
+        {
+          "kind": "auth_link",
+          "value": "https://launchpad.37signals.com/signin",
+          "evidence": [
+            {
+              "source": "https://basecamp.com/",
+              "quote": "Sign in"
+            }
+          ]
+        },
+        {
+          "kind": "auth_link",
+          "value": "https://3.basecamp.com/signup/account/new?plan=free_v1",
+          "evidence": [
+            {
+              "source": "https://basecamp.com/pricing",
+              "quote": "Sign up free"
+            }
+          ]
+        },
+        {
+          "kind": "auth_link",
+          "value": "https://3.basecamp.com/signup/account/new?plan=per_user_v3",
+          "evidence": [
+            {
+              "source": "https://basecamp.com/pricing",
+              "quote": "Try it free for 30 days"
+            }
+          ]
+        },
+        {
+          "kind": "auth_link",
+          "value": "https://3.basecamp.com/signup/account/new?plan=pro_unlimited_yearly_v1",
+          "evidence": [
+            {
+              "source": "https://basecamp.com/pricing",
+              "quote": "Try it free for 60 days"
+            }
+          ]
+        }
+      ]
+    },
+    "offerings": [
+      {
+        "name": "Hundreds of companies have written custom integrations, and our Integrations page links up third-party soluti...",
+        "category": "pricing_or_plan",
+        "evidence": [
+          {
+            "source": "https://basecamp.com/",
+            "quote": "Hundreds of companies have written custom integrations, and our Integrations page links up third-party solutions for invoicing, accounting, time tracking, reporting, planning, asset management, contracts, proposals, and more."
+          }
+        ]
+      },
+      {
+        "name": "Pick the package that fits you best.",
+        "category": "unknown",
+        "evidence": [
+          {
+            "source": "https://basecamp.com/pricing",
+            "quote": "Pick the package that fits you best."
+          }
+        ]
+      },
+      {
+        "name": "Basecamp Free",
+        "category": "unknown",
+        "evidence": [
+          {
+            "source": "https://basecamp.com/pricing",
+            "quote": "Basecamp Free"
+          }
+        ]
+      },
+      {
+        "name": "Run one project at a time.",
+        "category": "unknown",
+        "evidence": [
+          {
+            "source": "https://basecamp.com/pricing",
+            "quote": "Run one project at a time."
+          }
+        ]
+      },
+      {
+        "name": "Basecamp Plus",
+        "category": "unknown",
+        "evidence": [
+          {
+            "source": "https://basecamp.com/pricing",
+            "quote": "Basecamp Plus"
+          }
+        ]
+      },
+      {
+        "name": "Ideal for freelancers, startups, and smaller teams.",
+        "category": "unknown",
+        "evidence": [
+          {
+            "source": "https://basecamp.com/pricing",
+            "quote": "Ideal for freelancers, startups, and smaller teams."
+          }
+        ]
+      },
+      {
+        "name": "Basecamp Pro Unlimited",
+        "category": "unknown",
+        "evidence": [
+          {
+            "source": "https://basecamp.com/pricing",
+            "quote": "Basecamp Pro Unlimited"
+          }
+        ]
+      },
+      {
+        "name": "The same core features are included with every package.",
+        "category": "unknown",
+        "evidence": [
+          {
+            "source": "https://basecamp.com/pricing",
+            "quote": "The same core features are included with every package."
+          }
+        ]
+      },
+      {
+        "name": "A stable, well-run company is part of the deal, too.",
+        "category": "unknown",
+        "evidence": [
+          {
+            "source": "https://basecamp.com/pricing",
+            "quote": "A stable, well-run company is part of the deal, too."
+          }
+        ]
+      },
+      {
+        "name": "How do customers feel after switching to Basecamp?",
+        "category": "unknown",
+        "evidence": [
+          {
+            "source": "https://basecamp.com/pricing",
+            "quote": "How do customers feel after switching to Basecamp?"
+          }
+        ]
+      },
+      {
+        "name": "Risk-free, cancel anytime, no long-term lock-in.",
+        "category": "unknown",
+        "evidence": [
+          {
+            "source": "https://basecamp.com/pricing",
+            "quote": "Risk-free, cancel anytime, no long-term lock-in."
+          }
+        ]
+      },
+      {
+        "name": "A big boost for bootstrappers & small businesses.",
+        "category": "software_or_tool",
+        "evidence": [
+          {
+            "source": "https://basecamp.com/pricing",
+            "quote": "A big boost for bootstrappers & small businesses."
+          }
+        ]
+      }
+    ],
+    "operatingContext": {
+      "locations": [],
+      "hours": []
+    },
+    "unknowns": [],
+    "agentInstructions": {
+      "constraints": [
+        "Use only capabilities marked available_from_site_evidence.",
+        "Treat missing, unclear, or unevidenced details as unknown.",
+        "Do not submit forms, create accounts, make purchases, or send messages without explicit user confirmation.",
+        "When citing facts to a downstream agent or user, include the source URL from evidence."
+      ],
+      "recommendedNextQuestions": [
+        "Are business hours or response times published elsewhere?"
+      ],
+      "safeAutomationPolicy": {
+        "canReadPublicPages": true,
+        "canPrepareDrafts": true,
+        "canNavigateToLinks": true,
+        "requiresHumanApproval": [
+          "form_submission",
+          "purchase",
+          "account_creation",
+          "payment",
+          "message_send"
+        ],
+        "prohibitedWithoutMoreEvidence": []
+      }
+    },
+    "sourceEvidence": [
+      {
+        "id": "ev_001",
+        "label": "business_name",
+        "url": "https://basecamp.com/",
+        "quote": "Basecamp — Project management software, online collaboration"
+      },
+      {
+        "id": "ev_002",
+        "label": "business_description",
+        "url": "https://basecamp.com/",
+        "quote": "Trusted by millions, Basecamp puts everything you need to get work done in one place. It’s the calm, organized way to manage projects, work with clients, and communicate company-wide."
+      },
+      {
+        "id": "ev_003",
+        "label": "offering_snippet",
+        "url": "https://basecamp.com/",
+        "quote": "Hundreds of companies have written custom integrations, and our Integrations page links up third-party solutions for invoicing, accounting, time tracking, reporting, planning, asset management, contracts, proposals, and more."
+      },
+      {
+        "id": "ev_004",
+        "label": "offering_heading",
+        "url": "https://basecamp.com/pricing",
+        "quote": "Pick the package that fits you best."
+      },
+      {
+        "id": "ev_005",
+        "label": "offering_heading",
+        "url": "https://basecamp.com/pricing",
+        "quote": "Basecamp Free"
+      },
+      {
+        "id": "ev_006",
+        "label": "offering_heading",
+        "url": "https://basecamp.com/pricing",
+        "quote": "Run one project at a time."
+      },
+      {
+        "id": "ev_007",
+        "label": "offering_heading",
+        "url": "https://basecamp.com/pricing",
+        "quote": "Basecamp Plus"
+      },
+      {
+        "id": "ev_008",
+        "label": "offering_heading",
+        "url": "https://basecamp.com/pricing",
+        "quote": "Ideal for freelancers, startups, and smaller teams."
+      },
+      {
+        "id": "ev_009",
+        "label": "offering_heading",
+        "url": "https://basecamp.com/pricing",
+        "quote": "Basecamp Pro Unlimited"
+      },
+      {
+        "id": "ev_010",
+        "label": "offering_heading",
+        "url": "https://basecamp.com/pricing",
+        "quote": "The same core features are included with every package."
+      },
+      {
+        "id": "ev_011",
+        "label": "offering_heading",
+        "url": "https://basecamp.com/pricing",
+        "quote": "A stable, well-run company is part of the deal, too."
+      },
+      {
+        "id": "ev_012",
+        "label": "offering_heading",
+        "url": "https://basecamp.com/pricing",
+        "quote": "How do customers feel after switching to Basecamp?"
+      },
+      {
+        "id": "ev_013",
+        "label": "offering_heading",
+        "url": "https://basecamp.com/pricing",
+        "quote": "Risk-free, cancel anytime, no long-term lock-in."
+      },
+      {
+        "id": "ev_014",
+        "label": "offering_heading",
+        "url": "https://basecamp.com/pricing",
+        "quote": "A big boost for bootstrappers & small businesses."
+      },
+      {
+        "id": "ev_015",
+        "label": "offering_heading",
+        "url": "https://basecamp.com/pricing",
+        "quote": "Basecamp eliminates the Hassle Tax."
+      },
+      {
+        "id": "ev_016",
+        "label": "offering_heading",
+        "url": "https://basecamp.com/pricing",
+        "quote": "I have questions about pricing…"
+      },
+      {
+        "id": "ev_017",
+        "label": "offering_heading",
+        "url": "https://basecamp.com/support/testimonials",
+        "quote": "At Basecamp, customer service isn’t an afterthought, it’s one of our best features."
+      },
+      {
+        "id": "ev_018",
+        "label": "offering_snippet",
+        "url": "https://basecamp.com/customers",
+        "quote": "Shahid Juma, ECNet Solutions Inc."
+      },
+      {
+        "id": "ev_019",
+        "label": "offering_snippet",
+        "url": "https://basecamp.com/paths",
+        "quote": "We needed solutions, not repackaging.” Then they gave Slack a try “Chaos disguised as communication."
+      },
+      {
+        "id": "ev_020",
+        "label": "customer_action:contact_business",
+        "url": "https://basecamp.com/",
+        "quote": "contact us"
+      },
+      {
+        "id": "ev_021",
+        "label": "customer_action:buy_or_checkout",
+        "url": "https://basecamp.com/",
+        "quote": "Pricing"
+      },
+      {
+        "id": "ev_022",
+        "label": "customer_action:sign_in",
+        "url": "https://basecamp.com/",
+        "quote": "Sign in"
+      },
+      {
+        "id": "ev_023",
+        "label": "customer_action:get_support",
+        "url": "https://basecamp.com/",
+        "quote": "Here’s how exporting works"
+      },
+      {
+        "id": "ev_024",
+        "label": "form",
+        "url": "https://basecamp.com/",
+        "quote": "Subscribe"
+      },
+      {
+        "id": "ev_025",
+        "label": "tool:payment_or_cart",
+        "url": "https://basecamp.com/",
+        "quote": "Pricing -> https://basecamp.com/pricing"
+      },
+      {
+        "id": "ev_026",
+        "label": "tool:auth",
+        "url": "https://basecamp.com/",
+        "quote": "Sign in -> https://launchpad.37signals.com/signin"
+      },
+      {
+        "id": "ev_027",
+        "label": "form",
+        "url": "https://basecamp.com/pricing",
+        "quote": "Subscribe"
+      },
+      {
+        "id": "ev_028",
+        "label": "tool:payment_or_cart",
+        "url": "https://basecamp.com/pricing",
+        "quote": "Pricing -> https://basecamp.com/pricing"
+      },
+      {
+        "id": "ev_029",
+        "label": "tool:auth",
+        "url": "https://basecamp.com/pricing",
+        "quote": "Sign in -> https://launchpad.37signals.com/signin"
+      },
+      {
+        "id": "ev_030",
+        "label": "tool:auth",
+        "url": "https://basecamp.com/pricing",
+        "quote": "Sign up free -> https://3.basecamp.com/signup/account/new?plan=free_v1"
+      },
+      {
+        "id": "ev_031",
+        "label": "tool:auth",
+        "url": "https://basecamp.com/pricing",
+        "quote": "Try it free for 30 days -> https://3.basecamp.com/signup/account/new?plan=per_user_v3"
+      },
+      {
+        "id": "ev_032",
+        "label": "tool:auth",
+        "url": "https://basecamp.com/pricing",
+        "quote": "Try it free for 60 days -> https://3.basecamp.com/signup/account/new?plan=pro_unlimited_yearly_v1"
+      },
+      {
+        "id": "ev_033",
+        "label": "tool:social",
+        "url": "https://basecamp.com/pricing",
+        "quote": "this video shows you how it works -> https://www.youtube.com/watch?v=AdazpMjeteE"
+      },
+      {
+        "id": "ev_034",
+        "label": "form",
+        "url": "https://basecamp.com/books",
+        "quote": "Subscribe"
+      },
+      {
+        "id": "ev_035",
+        "label": "tool:payment_or_cart",
+        "url": "https://basecamp.com/books",
+        "quote": "Pricing -> https://basecamp.com/pricing"
+      },
+      {
+        "id": "ev_036",
+        "label": "tool:auth",
+        "url": "https://basecamp.com/books",
+        "quote": "Sign in -> https://launchpad.37signals.com/signin"
+      },
+      {
+        "id": "ev_037",
+        "label": "form",
+        "url": "https://basecamp.com/support",
+        "quote": "What do you need help with? Required This helps make sure you get the right answer fast. Please select one… I can’t access my account I have a question before I sign up I want to request a feature I have a billing question I’m not receivin..."
+      },
+      {
+        "id": "ev_038",
+        "label": "form",
+        "url": "https://basecamp.com/support",
+        "quote": "Subscribe"
+      },
+      {
+        "id": "ev_039",
+        "label": "tool:payment_or_cart",
+        "url": "https://basecamp.com/support",
+        "quote": "Pricing -> https://basecamp.com/pricing"
+      },
+      {
+        "id": "ev_040",
+        "label": "tool:auth",
+        "url": "https://basecamp.com/support",
+        "quote": "Sign in -> https://launchpad.37signals.com/signin"
+      },
+      {
+        "id": "ev_041",
+        "label": "form",
+        "url": "https://basecamp.com/support/testimonials",
+        "quote": "Subscribe"
+      },
+      {
+        "id": "ev_042",
+        "label": "tool:payment_or_cart",
+        "url": "https://basecamp.com/support/testimonials",
+        "quote": "Pricing -> https://basecamp.com/pricing"
+      },
+      {
+        "id": "ev_043",
+        "label": "tool:auth",
+        "url": "https://basecamp.com/support/testimonials",
+        "quote": "Sign in -> https://launchpad.37signals.com/signin"
+      },
+      {
+        "id": "ev_044",
+        "label": "form",
+        "url": "https://basecamp.com/customers",
+        "quote": "Subscribe"
+      },
+      {
+        "id": "ev_045",
+        "label": "tool:payment_or_cart",
+        "url": "https://basecamp.com/customers",
+        "quote": "Pricing -> https://basecamp.com/pricing"
+      },
+      {
+        "id": "ev_046",
+        "label": "tool:auth",
+        "url": "https://basecamp.com/customers",
+        "quote": "Sign in -> https://launchpad.37signals.com/signin"
+      },
+      {
+        "id": "ev_047",
+        "label": "form",
+        "url": "https://basecamp.com/paths",
+        "quote": "Subscribe"
+      },
+      {
+        "id": "ev_048",
+        "label": "tool:payment_or_cart",
+        "url": "https://basecamp.com/paths",
+        "quote": "Pricing -> https://basecamp.com/pricing"
+      },
+      {
+        "id": "ev_049",
+        "label": "tool:auth",
+        "url": "https://basecamp.com/paths",
+        "quote": "Sign in -> https://launchpad.37signals.com/signin"
+      },
+      {
+        "id": "ev_050",
+        "label": "contact_email",
+        "url": "https://basecamp.com/",
+        "quote": "jason@basecamp.com"
+      },
+      {
+        "id": "ev_051",
+        "label": "contact_email",
+        "url": "https://basecamp.com/",
+        "quote": "jason@basecamp.com"
+      },
+      {
+        "id": "ev_052",
+        "label": "contact_email",
+        "url": "https://basecamp.com/",
+        "quote": "jason@basecamp.com"
+      },
+      {
+        "id": "ev_053",
+        "label": "contact_email",
+        "url": "https://basecamp.com/",
+        "quote": "david@basecamp.com"
+      },
+      {
+        "id": "ev_054",
+        "label": "payment",
+        "url": "https://basecamp.com/",
+        "quote": "Pricing"
+      },
+      {
+        "id": "ev_055",
+        "label": "auth",
+        "url": "https://basecamp.com/",
+        "quote": "Sign in"
+      },
+      {
+        "id": "ev_056",
+        "label": "payment",
+        "url": "https://basecamp.com/pricing",
+        "quote": "Pricing"
+      },
+      {
+        "id": "ev_057",
+        "label": "auth",
+        "url": "https://basecamp.com/pricing",
+        "quote": "Sign in"
+      },
+      {
+        "id": "ev_058",
+        "label": "auth",
+        "url": "https://basecamp.com/pricing",
+        "quote": "Sign up free"
+      },
+      {
+        "id": "ev_059",
+        "label": "auth",
+        "url": "https://basecamp.com/pricing",
+        "quote": "Try it free for 30 days"
+      },
+      {
+        "id": "ev_060",
+        "label": "auth",
+        "url": "https://basecamp.com/pricing",
+        "quote": "Try it free for 60 days"
+      },
+      {
+        "id": "ev_061",
+        "label": "payment",
+        "url": "https://basecamp.com/books",
+        "quote": "Pricing"
+      },
+      {
+        "id": "ev_062",
+        "label": "auth",
+        "url": "https://basecamp.com/books",
+        "quote": "Sign in"
+      },
+      {
+        "id": "ev_063",
+        "label": "payment",
+        "url": "https://basecamp.com/books",
+        "quote": "Buy the print edition"
+      },
+      {
+        "id": "ev_064",
+        "label": "payment",
+        "url": "https://basecamp.com/support",
+        "quote": "Pricing"
+      },
+      {
+        "id": "ev_065",
+        "label": "auth",
+        "url": "https://basecamp.com/support",
+        "quote": "Sign in"
+      },
+      {
+        "id": "ev_066",
+        "label": "payment",
+        "url": "https://basecamp.com/support/testimonials",
+        "quote": "Pricing"
+      },
+      {
+        "id": "ev_067",
+        "label": "auth",
+        "url": "https://basecamp.com/support/testimonials",
+        "quote": "Sign in"
+      },
+      {
+        "id": "ev_068",
+        "label": "payment",
+        "url": "https://basecamp.com/customers",
+        "quote": "Pricing"
+      },
+      {
+        "id": "ev_069",
+        "label": "auth",
+        "url": "https://basecamp.com/customers",
+        "quote": "Sign in"
+      },
+      {
+        "id": "ev_070",
+        "label": "payment",
+        "url": "https://basecamp.com/paths",
+        "quote": "Pricing"
+      },
+      {
+        "id": "ev_071",
+        "label": "auth",
+        "url": "https://basecamp.com/paths",
+        "quote": "Sign in"
+      }
+    ]
+  }
+}

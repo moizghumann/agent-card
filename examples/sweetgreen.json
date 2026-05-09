@@ -1,0 +1,4603 @@
+{
+  "inputUrl": "https://www.sweetgreen.com/",
+  "analyzedAt": "2026-05-09T11:27:06.768Z",
+  "scan": {
+    "requestedMaxPages": 8,
+    "pagesScanned": 8,
+    "pagesDiscovered": 286,
+    "usedLlmForBusinessMap": false,
+    "usedLlmForAgentCard": false,
+    "warnings": [
+      {
+        "url": "https://www.sweetgreen.com/naomi",
+        "message": "HTTP 404 while fetching page.",
+        "code": "HTTP_ERROR"
+      }
+    ]
+  },
+  "businessMap": {
+    "mapVersion": "1.0",
+    "scope": {
+      "startUrl": "https://www.sweetgreen.com/",
+      "pagesScanned": 8,
+      "crawlLimit": 8,
+      "method": "same-site HTML crawl with deterministic evidence extraction"
+    },
+    "pagesFound": [
+      {
+        "url": "https://www.sweetgreen.com/",
+        "anchorText": "Start URL",
+        "sourceUrl": "https://www.sweetgreen.com/",
+        "scanned": true,
+        "title": "sweetgreen | Inspiring healthier communities"
+      },
+      {
+        "url": "https://www.sweetgreen.com/menu",
+        "anchorText": "Our Menu",
+        "sourceUrl": "https://www.sweetgreen.com/",
+        "scanned": true,
+        "title": "sweetgreen | Menu | sweetgreen"
+      },
+      {
+        "url": "https://www.sweetgreen.com/mission",
+        "anchorText": "Our Mission",
+        "sourceUrl": "https://www.sweetgreen.com/",
+        "scanned": true,
+        "title": "sweetgreen | Our Mission | sweetgreen"
+      },
+      {
+        "url": "http://shop.sweetgreen.com/",
+        "anchorText": "The Market",
+        "sourceUrl": "https://www.sweetgreen.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://outpost.sweetgreen.com/",
+        "anchorText": "Outpost",
+        "sourceUrl": "https://www.sweetgreen.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://www.sweetgreen.com/catering",
+        "anchorText": "Catering",
+        "sourceUrl": "https://www.sweetgreen.com/",
+        "scanned": true,
+        "title": "catering | sweetgreen"
+      },
+      {
+        "url": "https://www.sweetgreen.com/locations",
+        "anchorText": "Locations",
+        "sourceUrl": "https://www.sweetgreen.com/",
+        "scanned": true,
+        "title": "Sweetgreen Locations | Find a Restaurant Near You"
+      },
+      {
+        "url": "https://order.sweetgreen.com/",
+        "anchorText": "Order",
+        "sourceUrl": "https://www.sweetgreen.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "http://outpost.sweetgreen.com/",
+        "anchorText": "Outpost",
+        "sourceUrl": "https://www.sweetgreen.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://sweetgreen.onelink.me/VN9x",
+        "anchorText": "Download the app",
+        "sourceUrl": "https://www.sweetgreen.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://order.sweetgreen.com/menu?category=wraps",
+        "anchorText": "Order now",
+        "sourceUrl": "https://www.sweetgreen.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://www.sweetgreen.com/contact",
+        "anchorText": "Let us know",
+        "sourceUrl": "https://www.sweetgreen.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://www.sweetgreen.com/naomi",
+        "anchorText": "Find out more",
+        "sourceUrl": "https://www.sweetgreen.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://order.sweetgreen.com/order-product/pesto-chicken-parmesan",
+        "anchorText": "Order now →",
+        "sourceUrl": "https://www.sweetgreen.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://assets.ctfassets.net/eum7w7yri3zr/76xImBzzZCnvVQ3pDtm9fg/08e451f6d46bb93af2f9694be7f77051/sg-Rosemary_Focaccia_partner.pdf",
+        "anchorText": "here",
+        "sourceUrl": "https://www.sweetgreen.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://order.sweetgreen.com/order-product/rosemary-focaccia",
+        "anchorText": "Order now →",
+        "sourceUrl": "https://www.sweetgreen.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://sweetgreen.com/catering",
+        "anchorText": "Catering",
+        "sourceUrl": "https://www.sweetgreen.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://outpost.sweetgreen.com/sgcredits/",
+        "anchorText": "Still WFH?",
+        "sourceUrl": "https://www.sweetgreen.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://www.tiktok.com/@sweetgreen",
+        "anchorText": "Follow along →",
+        "sourceUrl": "https://www.sweetgreen.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://careers.sweetgreen.com/",
+        "anchorText": "Careers",
+        "sourceUrl": "https://www.sweetgreen.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://investor.sweetgreen.com/overview/default.aspx",
+        "anchorText": "Investor Relations",
+        "sourceUrl": "https://www.sweetgreen.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://www.sweetgreen.com/press",
+        "anchorText": "Press",
+        "sourceUrl": "https://www.sweetgreen.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://apps.apple.com/us/app/sweetgreen-rewards/id594329490",
+        "anchorText": "sweetgreen app",
+        "sourceUrl": "https://www.sweetgreen.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://www.sweetgreen.com/hex",
+        "anchorText": "The Hex Bowl",
+        "sourceUrl": "https://www.sweetgreen.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://www.instagram.com/sweetgreen/",
+        "anchorText": "Instagram",
+        "sourceUrl": "https://www.sweetgreen.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://twitter.com/sweetgreen",
+        "anchorText": "Twitter",
+        "sourceUrl": "https://www.sweetgreen.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://open.spotify.com/user/1224421164",
+        "anchorText": "Spotify",
+        "sourceUrl": "https://www.sweetgreen.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "http://facebook.com/sweetgreen",
+        "anchorText": "Facebook",
+        "sourceUrl": "https://www.sweetgreen.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://www.youtube.com/user/sweetgreen",
+        "anchorText": "YouTube",
+        "sourceUrl": "https://www.sweetgreen.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://drive.google.com/file/d/1AQyfAeWWqiZmTIiOHpWMgHi7-sAprnl1/view",
+        "anchorText": "Nutrition + Allergens Guide",
+        "sourceUrl": "https://www.sweetgreen.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://order.sweetgreen.com/gift",
+        "anchorText": "Gift Cards",
+        "sourceUrl": "https://www.sweetgreen.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://shop.sweetgreen.com/",
+        "anchorText": "Store",
+        "sourceUrl": "https://www.sweetgreen.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://www.sweetgreen.com/privacy-policy",
+        "anchorText": "Privacy Policy",
+        "sourceUrl": "https://www.sweetgreen.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://www.sweetgreen.com/terms",
+        "anchorText": "Terms of Use",
+        "sourceUrl": "https://www.sweetgreen.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://www.sweetgreen.com/accessibility-statement",
+        "anchorText": "Accessibility Statement",
+        "sourceUrl": "https://www.sweetgreen.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://www.sweetgreen.com/consumer-health-data-notice",
+        "anchorText": "Consumer Health Data Notice",
+        "sourceUrl": "https://www.sweetgreen.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://www.sweetgreen.com/sg-rewards-program-agreement-1",
+        "anchorText": "SG Rewards Program Terms",
+        "sourceUrl": "https://www.sweetgreen.com/",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "http://order.sweetgreen.com/",
+        "anchorText": "Order Now →",
+        "sourceUrl": "https://www.sweetgreen.com/menu",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://drive.google.com/file/d/1AQyfAeWWqiZmTIiOHpWMgHi7-sAprnl1/view?usp=sharing",
+        "anchorText": "Download",
+        "sourceUrl": "https://www.sweetgreen.com/menu",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://www.sweetgreen.com/carbon-menu-labeling-methodology",
+        "anchorText": "Carbon Methodology →",
+        "sourceUrl": "https://www.sweetgreen.com/menu",
+        "scanned": true,
+        "title": "Carbon Menu Labeling Methodology | sweetgreen"
+      },
+      {
+        "url": "https://www.sweetgreen.com/locations/bentonville",
+        "anchorText": "View",
+        "sourceUrl": "https://www.sweetgreen.com/locations",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://order.sweetgreen.com/bentonville/menu",
+        "anchorText": "Order",
+        "sourceUrl": "https://www.sweetgreen.com/locations",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://www.sweetgreen.com/locations/fayetteville",
+        "anchorText": "View",
+        "sourceUrl": "https://www.sweetgreen.com/locations",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://order.sweetgreen.com/fayetteville/menu",
+        "anchorText": "Order",
+        "sourceUrl": "https://www.sweetgreen.com/locations",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://www.sweetgreen.com/locations/32nd-camelback",
+        "anchorText": "View",
+        "sourceUrl": "https://www.sweetgreen.com/locations",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://order.sweetgreen.com/32nd-camelback/menu",
+        "anchorText": "Order",
+        "sourceUrl": "https://www.sweetgreen.com/locations",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://www.sweetgreen.com/locations/paradise-valley",
+        "anchorText": "View",
+        "sourceUrl": "https://www.sweetgreen.com/locations",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://www.sweetgreen.com/locations/scottsdale-quarter",
+        "anchorText": "View",
+        "sourceUrl": "https://www.sweetgreen.com/locations",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://order.sweetgreen.com/scottsdale-quarter/menu",
+        "anchorText": "Order",
+        "sourceUrl": "https://www.sweetgreen.com/locations",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://www.sweetgreen.com/locations/4s-commons",
+        "anchorText": "View",
+        "sourceUrl": "https://www.sweetgreen.com/locations",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://order.sweetgreen.com/4s-commons/menu",
+        "anchorText": "Order",
+        "sourceUrl": "https://www.sweetgreen.com/locations",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://www.sweetgreen.com/locations/5th-grand",
+        "anchorText": "View",
+        "sourceUrl": "https://www.sweetgreen.com/locations",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://order.sweetgreen.com/5th-grand/menu",
+        "anchorText": "Order",
+        "sourceUrl": "https://www.sweetgreen.com/locations",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://www.sweetgreen.com/locations/8th-hill",
+        "anchorText": "View",
+        "sourceUrl": "https://www.sweetgreen.com/locations",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://order.sweetgreen.com/8th-hill/menu",
+        "anchorText": "Order",
+        "sourceUrl": "https://www.sweetgreen.com/locations",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://www.sweetgreen.com/locations/9th-broadway",
+        "anchorText": "View",
+        "sourceUrl": "https://www.sweetgreen.com/locations",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://order.sweetgreen.com/9th-broadway/menu",
+        "anchorText": "Order",
+        "sourceUrl": "https://www.sweetgreen.com/locations",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://www.sweetgreen.com/locations/berkeley",
+        "anchorText": "View",
+        "sourceUrl": "https://www.sweetgreen.com/locations",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://order.sweetgreen.com/berkeley/menu",
+        "anchorText": "Order",
+        "sourceUrl": "https://www.sweetgreen.com/locations",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://www.sweetgreen.com/locations/beverly-wilshire",
+        "anchorText": "View",
+        "sourceUrl": "https://www.sweetgreen.com/locations",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://order.sweetgreen.com/beverly-wilshire/menu",
+        "anchorText": "Order",
+        "sourceUrl": "https://www.sweetgreen.com/locations",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://www.sweetgreen.com/locations/burlingame",
+        "anchorText": "View",
+        "sourceUrl": "https://www.sweetgreen.com/locations",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://order.sweetgreen.com/burlingame/menu",
+        "anchorText": "Order",
+        "sourceUrl": "https://www.sweetgreen.com/locations",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://www.sweetgreen.com/locations/carlsbad",
+        "anchorText": "View",
+        "sourceUrl": "https://www.sweetgreen.com/locations",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://order.sweetgreen.com/carlsbad/menu",
+        "anchorText": "Order",
+        "sourceUrl": "https://www.sweetgreen.com/locations",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://www.sweetgreen.com/locations/century-city",
+        "anchorText": "View",
+        "sourceUrl": "https://www.sweetgreen.com/locations",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://order.sweetgreen.com/century-city/menu",
+        "anchorText": "Order",
+        "sourceUrl": "https://www.sweetgreen.com/locations",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://www.sweetgreen.com/locations/costa-mesa",
+        "anchorText": "View",
+        "sourceUrl": "https://www.sweetgreen.com/locations",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://order.sweetgreen.com/costa-mesa/menu",
+        "anchorText": "Order",
+        "sourceUrl": "https://www.sweetgreen.com/locations",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://www.sweetgreen.com/locations/culver-city-the-lab",
+        "anchorText": "View",
+        "sourceUrl": "https://www.sweetgreen.com/locations",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://order.sweetgreen.com/culver-city-the-lab/menu",
+        "anchorText": "Order",
+        "sourceUrl": "https://www.sweetgreen.com/locations",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://www.sweetgreen.com/locations/del-amo",
+        "anchorText": "View",
+        "sourceUrl": "https://www.sweetgreen.com/locations",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://order.sweetgreen.com/del-amo/menu",
+        "anchorText": "Order",
+        "sourceUrl": "https://www.sweetgreen.com/locations",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://www.sweetgreen.com/locations/del-mar",
+        "anchorText": "View",
+        "sourceUrl": "https://www.sweetgreen.com/locations",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://order.sweetgreen.com/del-mar/menu",
+        "anchorText": "Order",
+        "sourceUrl": "https://www.sweetgreen.com/locations",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://www.sweetgreen.com/locations/emeryville",
+        "anchorText": "View",
+        "sourceUrl": "https://www.sweetgreen.com/locations",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://www.sweetgreen.com/locations/encino",
+        "anchorText": "View",
+        "sourceUrl": "https://www.sweetgreen.com/locations",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://order.sweetgreen.com/encino/menu",
+        "anchorText": "Order",
+        "sourceUrl": "https://www.sweetgreen.com/locations",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://www.sweetgreen.com/locations/fair-oaks-howe",
+        "anchorText": "View",
+        "sourceUrl": "https://www.sweetgreen.com/locations",
+        "scanned": false,
+        "title": null
+      },
+      {
+        "url": "https://order.sweetgreen.com/fair-oaks-howe/menu",
+        "anchorText": "Order",
+        "sourceUrl": "https://www.sweetgreen.com/locations",
+        "scanned": false,
+        "title": null
+      }
+    ],
+    "business": {
+      "name": "sweetgreen",
+      "description": "healthy salads, hearty wraps, grain bowls, and warm plates made in-house from scratch, using whole produce delivered that morning.",
+      "likelyTypes": [
+        "restaurant_or_food_service"
+      ],
+      "confidence": "medium",
+      "evidence": [
+        "ev_001",
+        "ev_002"
+      ]
+    },
+    "offerings": [
+      {
+        "name": "Support + Services",
+        "category": "service",
+        "evidence": [
+          "ev_003"
+        ]
+      },
+      {
+        "name": "We source the best ingredients from farmers we know + prepare them fresh.",
+        "category": "menu_item_or_food_service",
+        "evidence": [
+          "ev_005"
+        ]
+      },
+      {
+        "name": "WRAPS HIT DIFFERENT",
+        "category": "menu_item_or_food_service",
+        "evidence": [
+          "ev_006"
+        ]
+      },
+      {
+        "name": "New! Wraps",
+        "category": "menu_item_or_food_service",
+        "evidence": [
+          "ev_007"
+        ]
+      },
+      {
+        "name": "Classic Chicken Caesar",
+        "category": "menu_item_or_food_service",
+        "evidence": [
+          "ev_008"
+        ]
+      },
+      {
+        "name": "Cali Chicken Club",
+        "category": "menu_item_or_food_service",
+        "evidence": [
+          "ev_009"
+        ]
+      },
+      {
+        "name": "Chicken Jalapeño Ranch",
+        "category": "menu_item_or_food_service",
+        "evidence": [
+          "ev_010"
+        ]
+      },
+      {
+        "name": "Saucy KBBQ Chicken",
+        "category": "menu_item_or_food_service",
+        "evidence": [
+          "ev_011"
+        ]
+      },
+      {
+        "name": "Protein Plates",
+        "category": "menu_item_or_food_service",
+        "evidence": [
+          "ev_012"
+        ]
+      },
+      {
+        "name": "Caramelized Garlic Steak",
+        "category": "menu_item_or_food_service",
+        "evidence": [
+          "ev_013"
+        ]
+      },
+      {
+        "name": "Miso Glazed Salmon",
+        "category": "menu_item_or_food_service",
+        "evidence": [
+          "ev_014"
+        ]
+      },
+      {
+        "name": "Hot Honey Chicken",
+        "category": "menu_item_or_food_service",
+        "evidence": [
+          "ev_015"
+        ]
+      }
+    ],
+    "customerActions": [
+      {
+        "action": "contact_business",
+        "label": "Contact the business",
+        "targetUrl": "https://www.sweetgreen.com/contact",
+        "mechanism": "link",
+        "confidence": "medium",
+        "evidence": [
+          "ev_057"
+        ]
+      },
+      {
+        "action": "buy_or_checkout",
+        "label": "Buy, order, or checkout",
+        "targetUrl": "https://order.sweetgreen.com/",
+        "mechanism": "link",
+        "confidence": "medium",
+        "evidence": [
+          "ev_058"
+        ]
+      }
+    ],
+    "toolsFormsLinks": [
+      {
+        "type": "form",
+        "label": "Contact or lead form",
+        "url": "https://www.sweetgreen.com/",
+        "method": "GET",
+        "fields": [
+          {
+            "tag": "input",
+            "type": "email",
+            "name": "email",
+            "label": "Email Address"
+          }
+        ],
+        "evidence": [
+          "ev_059"
+        ]
+      },
+      {
+        "type": "social",
+        "label": "Instagram",
+        "url": "https://www.instagram.com/sweetgreen/",
+        "external": true,
+        "evidence": [
+          "ev_060"
+        ]
+      },
+      {
+        "type": "social",
+        "label": "Twitter",
+        "url": "https://twitter.com/sweetgreen",
+        "external": true,
+        "evidence": [
+          "ev_061"
+        ]
+      },
+      {
+        "type": "social",
+        "label": "Facebook",
+        "url": "http://facebook.com/sweetgreen",
+        "external": true,
+        "evidence": [
+          "ev_062"
+        ]
+      },
+      {
+        "type": "social",
+        "label": "YouTube",
+        "url": "https://www.youtube.com/user/sweetgreen",
+        "external": true,
+        "evidence": [
+          "ev_063"
+        ]
+      },
+      {
+        "type": "form",
+        "label": "Contact or lead form",
+        "url": "https://www.sweetgreen.com/?contact=true",
+        "method": "GET",
+        "fields": [
+          {
+            "tag": "input",
+            "type": "email",
+            "name": "email",
+            "label": "Email Address"
+          }
+        ],
+        "evidence": [
+          "ev_064"
+        ]
+      },
+      {
+        "type": "form",
+        "label": "Contact or lead form",
+        "url": "https://www.sweetgreen.com/menu",
+        "method": "GET",
+        "fields": [
+          {
+            "tag": "input",
+            "type": "email",
+            "name": "email",
+            "label": "Email Address"
+          }
+        ],
+        "evidence": [
+          "ev_069"
+        ]
+      },
+      {
+        "type": "form",
+        "label": "Contact or lead form",
+        "url": "https://www.sweetgreen.com/carbon-menu-labeling-methodology",
+        "method": "GET",
+        "fields": [
+          {
+            "tag": "input",
+            "type": "email",
+            "name": "email",
+            "label": "Email Address"
+          }
+        ],
+        "evidence": [
+          "ev_074"
+        ]
+      },
+      {
+        "type": "form",
+        "label": "Contact or lead form",
+        "url": "https://www.sweetgreen.com/locations/",
+        "method": "GET",
+        "fields": [
+          {
+            "tag": "input",
+            "type": "email",
+            "name": "email",
+            "label": "name@example.com"
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "zipCode",
+            "label": "90011"
+          }
+        ],
+        "evidence": [
+          "ev_079"
+        ]
+      },
+      {
+        "type": "form",
+        "label": "Contact or lead form",
+        "url": "https://www.sweetgreen.com/mission",
+        "method": "GET",
+        "fields": [
+          {
+            "tag": "input",
+            "type": "email",
+            "name": "email",
+            "label": "Email Address"
+          }
+        ],
+        "evidence": [
+          "ev_081"
+        ]
+      },
+      {
+        "type": "social",
+        "label": "Learn more →",
+        "url": "https://www.youtube.com/watch?v=o2MNNPX_x1I",
+        "external": true,
+        "evidence": [
+          "ev_082"
+        ]
+      },
+      {
+        "type": "form",
+        "label": "Contact or lead form",
+        "url": "https://www.sweetgreen.com/catering/",
+        "method": "GET",
+        "fields": [
+          {
+            "tag": "input",
+            "type": "email",
+            "name": "email",
+            "label": "Email Address"
+          }
+        ],
+        "evidence": [
+          "ev_086"
+        ]
+      }
+    ],
+    "visibleInfo": {
+      "contact": [
+        {
+          "kind": "email",
+          "value": "catering@sweetgreen.com",
+          "evidence": [
+            "ev_096"
+          ]
+        },
+        {
+          "kind": "phone",
+          "value": "1-800-488-1803",
+          "evidence": [
+            "ev_099"
+          ]
+        }
+      ],
+      "payment": [
+        {
+          "kind": "payment_or_purchase_link",
+          "value": "https://order.sweetgreen.com/",
+          "evidence": [
+            "ev_104"
+          ]
+        },
+        {
+          "kind": "payment_or_purchase_link",
+          "value": "https://order.sweetgreen.com/menu?category=wraps",
+          "evidence": [
+            "ev_105"
+          ]
+        },
+        {
+          "kind": "payment_or_purchase_link",
+          "value": "https://order.sweetgreen.com/order-product/pesto-chicken-parmesan",
+          "evidence": [
+            "ev_106"
+          ]
+        },
+        {
+          "kind": "payment_or_purchase_link",
+          "value": "https://order.sweetgreen.com/order-product/rosemary-focaccia",
+          "evidence": [
+            "ev_107"
+          ]
+        },
+        {
+          "kind": "payment_or_purchase_link",
+          "value": "https://order.sweetgreen.com/gift",
+          "evidence": [
+            "ev_108"
+          ]
+        },
+        {
+          "kind": "payment_or_purchase_link",
+          "value": "http://order.sweetgreen.com/",
+          "evidence": [
+            "ev_116"
+          ]
+        },
+        {
+          "kind": "payment_or_purchase_link",
+          "value": "https://order.sweetgreen.com/bentonville/menu",
+          "evidence": [
+            "ev_121"
+          ]
+        },
+        {
+          "kind": "payment_or_purchase_link",
+          "value": "https://order.sweetgreen.com/fayetteville/menu",
+          "evidence": [
+            "ev_122"
+          ]
+        }
+      ],
+      "auth": [],
+      "locations": [
+        {
+          "value": "San Francisco, CA 94123 Mon - Thu 10:00am - 11:00pmFri - Sun 10:30am - 11:00pm View Order Marina del Rey 4718 Admiralty Way Marina del Rey, CA 90292 Mon - Sun 10:00am - 10:00pm View Order Market + Battery Coming soon 22 Battery Street San Francisco, CA 94111...",
+          "evidence": [
+            "ev_245"
+          ]
+        },
+        {
+          "value": "Colorado Boulevard, Suite L-110 Denver, CO 80222 Mon - Sun 10:00am - 9:00pm View Order Connecticut (5) Darien 126 Heights Road Darien, CT 6820 Mon - Sun 10:30am - 9:00pm View Order Farmington Valley 110 Albany Turnpike Suite 911 Canton, CT 6019 Mon - Sun 10:3...",
+          "evidence": [
+            "ev_246"
+          ]
+        },
+        {
+          "value": "Street, NW Washington, DC 20004 Mon - Fri 10:30am - 8:30pmSat - Sun 10:30am - 4:00pm View Order Union Market 1304 4th Street Northeast Washington, DC 20002 Mon - Fri 10:00am - 8:00pmSat - Sun 10:00am - 7:00pm View Order West End 2238 M St NW Washington, DC 20...",
+          "evidence": [
+            "ev_247"
+          ]
+        }
+      ],
+      "hours": [
+        {
+          "value": "San Francisco, CA 94123 Mon - Thu 10:00am - 11:00pmFri - Sun 10:30am - 11:00pm View Order Marina del Rey 4718 Admiralty Way Marina del Rey, CA 90292 Mon - Sun 10:00am - 10:00pm View Order Market + Battery Coming soon 22 Battery Street San Francisco, CA 94111...",
+          "evidence": [
+            "ev_248"
+          ]
+        },
+        {
+          "value": "Pasadena, CA 91101 Mon - Thu 10:00am - 9:00pmFri - Sat 10:00am - 10:00pmSun 10:00am - 9:00pm View Order Pruneyard 1875 S.",
+          "evidence": [
+            "ev_249"
+          ]
+        },
+        {
+          "value": "Bascom Avenue, Suite 450 Campbell, CA 95008 Mon - Fri 10:00am - 10:00pmSat - Sun 10:30am - 10:00pm View Order Rancho Cucamonga 7811 Monet Ave space 1305 Rancho Cucamonga, CA 91739 Mon - Sun 10:30am - 9:00pm View Order Redwood City Coming soon 1101 El Camino R...",
+          "evidence": [
+            "ev_250"
+          ]
+        }
+      ]
+    },
+    "missingOrUnclear": [
+      "Login, portal, or account access was not proven by scanned pages."
+    ],
+    "evidenceIndex": [
+      {
+        "id": "ev_001",
+        "label": "business_name",
+        "url": "https://www.sweetgreen.com/",
+        "quote": "sweetgreen | Inspiring healthier communities"
+      },
+      {
+        "id": "ev_002",
+        "label": "business_description",
+        "url": "https://www.sweetgreen.com/",
+        "quote": "healthy salads, hearty wraps, grain bowls, and warm plates made in-house from scratch, using whole produce delivered that morning."
+      },
+      {
+        "id": "ev_003",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/",
+        "quote": "Support + Services"
+      },
+      {
+        "id": "ev_004",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/?contact=true",
+        "quote": "Support + Services"
+      },
+      {
+        "id": "ev_005",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "We source the best ingredients from farmers we know + prepare them fresh."
+      },
+      {
+        "id": "ev_006",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "WRAPS HIT DIFFERENT"
+      },
+      {
+        "id": "ev_007",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "New! Wraps"
+      },
+      {
+        "id": "ev_008",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Classic Chicken Caesar"
+      },
+      {
+        "id": "ev_009",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Cali Chicken Club"
+      },
+      {
+        "id": "ev_010",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Chicken Jalapeño Ranch"
+      },
+      {
+        "id": "ev_011",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Saucy KBBQ Chicken"
+      },
+      {
+        "id": "ev_012",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Protein Plates"
+      },
+      {
+        "id": "ev_013",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Caramelized Garlic Steak"
+      },
+      {
+        "id": "ev_014",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Miso Glazed Salmon"
+      },
+      {
+        "id": "ev_015",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Hot Honey Chicken"
+      },
+      {
+        "id": "ev_016",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Steak Mezze"
+      },
+      {
+        "id": "ev_017",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Bowls"
+      },
+      {
+        "id": "ev_018",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Harvest Bowl"
+      },
+      {
+        "id": "ev_019",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Crispy Rice Bowl"
+      },
+      {
+        "id": "ev_020",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Chicken Pesto Parm"
+      },
+      {
+        "id": "ev_021",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Chicken Avocado Ranch"
+      },
+      {
+        "id": "ev_022",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Shroomami"
+      },
+      {
+        "id": "ev_023",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Fish Taco"
+      },
+      {
+        "id": "ev_024",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Steak Honey Crunch"
+      },
+      {
+        "id": "ev_025",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Salads"
+      },
+      {
+        "id": "ev_026",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Chicken Sesame Crunch"
+      },
+      {
+        "id": "ev_027",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Kale Caesar"
+      },
+      {
+        "id": "ev_028",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Guacamole Greens"
+      },
+      {
+        "id": "ev_029",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Super Green Goddess"
+      },
+      {
+        "id": "ev_030",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "BBQ Chicken Salad"
+      },
+      {
+        "id": "ev_031",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Hummus Crunch"
+      },
+      {
+        "id": "ev_032",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Buffalo Chicken"
+      },
+      {
+        "id": "ev_033",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Kids' Meals"
+      },
+      {
+        "id": "ev_034",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "RANCHY CHICKEN + RICE"
+      },
+      {
+        "id": "ev_035",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "LITTLE HARVEST"
+      },
+      {
+        "id": "ev_036",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Mini Mezze"
+      },
+      {
+        "id": "ev_037",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Honest Kids Apple Juice"
+      },
+      {
+        "id": "ev_038",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Sides"
+      },
+      {
+        "id": "ev_039",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Rosemary Focaccia"
+      },
+      {
+        "id": "ev_040",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Hummus + Focaccia"
+      },
+      {
+        "id": "ev_041",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Roasted Sweet Potatoes"
+      },
+      {
+        "id": "ev_042",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "SG x Siete: Green Goddess Ranch Potato Chips"
+      },
+      {
+        "id": "ev_043",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Siete Sea Salt Potato Chips"
+      },
+      {
+        "id": "ev_044",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Dessert"
+      },
+      {
+        "id": "ev_045",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/carbon-menu-labeling-methodology",
+        "quote": "Carbon Menu Labeling Methodology"
+      },
+      {
+        "id": "ev_046",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/carbon-menu-labeling-methodology",
+        "quote": "Join Our Newsletter"
+      },
+      {
+        "id": "ev_047",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/carbon-menu-labeling-methodology",
+        "quote": "Download the app"
+      },
+      {
+        "id": "ev_048",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/carbon-menu-labeling-methodology",
+        "quote": "About Us"
+      },
+      {
+        "id": "ev_049",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/carbon-menu-labeling-methodology",
+        "quote": "Social Media"
+      },
+      {
+        "id": "ev_050",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/carbon-menu-labeling-methodology",
+        "quote": "Support + Services"
+      },
+      {
+        "id": "ev_051",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/carbon-menu-labeling-methodology",
+        "quote": "Legal"
+      },
+      {
+        "id": "ev_052",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/mission",
+        "quote": "Support + Services"
+      },
+      {
+        "id": "ev_053",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "Support + Services"
+      },
+      {
+        "id": "ev_054",
+        "label": "offering_snippet",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "We offer individually packaged salads & warm bowls, sides, desserts, and assorted beverages & buffet-style catering at select locations."
+      },
+      {
+        "id": "ev_055",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "Support + Services"
+      },
+      {
+        "id": "ev_056",
+        "label": "offering_snippet",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "We offer individually packaged salads & warm bowls, sides, desserts, and assorted beverages & buffet-style catering at select locations."
+      },
+      {
+        "id": "ev_057",
+        "label": "customer_action:contact_business",
+        "url": "https://www.sweetgreen.com/",
+        "quote": "Let us know"
+      },
+      {
+        "id": "ev_058",
+        "label": "customer_action:buy_or_checkout",
+        "url": "https://www.sweetgreen.com/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_059",
+        "label": "form",
+        "url": "https://www.sweetgreen.com/",
+        "quote": "Email Address → Hm, there was an error adding your email to the list. Thank you for subscribing! You'll be hearing from us."
+      },
+      {
+        "id": "ev_060",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/",
+        "quote": "Instagram -> https://www.instagram.com/sweetgreen/"
+      },
+      {
+        "id": "ev_061",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/",
+        "quote": "Twitter -> https://twitter.com/sweetgreen"
+      },
+      {
+        "id": "ev_062",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/",
+        "quote": "Facebook -> http://facebook.com/sweetgreen"
+      },
+      {
+        "id": "ev_063",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/",
+        "quote": "YouTube -> https://www.youtube.com/user/sweetgreen"
+      },
+      {
+        "id": "ev_064",
+        "label": "form",
+        "url": "https://www.sweetgreen.com/?contact=true",
+        "quote": "Email Address → Hm, there was an error adding your email to the list. Thank you for subscribing! You'll be hearing from us."
+      },
+      {
+        "id": "ev_065",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/?contact=true",
+        "quote": "Instagram -> https://www.instagram.com/sweetgreen/"
+      },
+      {
+        "id": "ev_066",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/?contact=true",
+        "quote": "Twitter -> https://twitter.com/sweetgreen"
+      },
+      {
+        "id": "ev_067",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/?contact=true",
+        "quote": "Facebook -> http://facebook.com/sweetgreen"
+      },
+      {
+        "id": "ev_068",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/?contact=true",
+        "quote": "YouTube -> https://www.youtube.com/user/sweetgreen"
+      },
+      {
+        "id": "ev_069",
+        "label": "form",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Email Address → Hm, there was an error adding your email to the list. Thank you for subscribing! You'll be hearing from us."
+      },
+      {
+        "id": "ev_070",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Instagram -> https://www.instagram.com/sweetgreen/"
+      },
+      {
+        "id": "ev_071",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Twitter -> https://twitter.com/sweetgreen"
+      },
+      {
+        "id": "ev_072",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Facebook -> http://facebook.com/sweetgreen"
+      },
+      {
+        "id": "ev_073",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "YouTube -> https://www.youtube.com/user/sweetgreen"
+      },
+      {
+        "id": "ev_074",
+        "label": "form",
+        "url": "https://www.sweetgreen.com/carbon-menu-labeling-methodology",
+        "quote": "Email Address → Hm, there was an error adding your email to the list. Thank you for subscribing! You'll be hearing from us."
+      },
+      {
+        "id": "ev_075",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/carbon-menu-labeling-methodology",
+        "quote": "Instagram -> https://www.instagram.com/sweetgreen/"
+      },
+      {
+        "id": "ev_076",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/carbon-menu-labeling-methodology",
+        "quote": "Twitter -> https://twitter.com/sweetgreen"
+      },
+      {
+        "id": "ev_077",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/carbon-menu-labeling-methodology",
+        "quote": "Facebook -> http://facebook.com/sweetgreen"
+      },
+      {
+        "id": "ev_078",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/carbon-menu-labeling-methodology",
+        "quote": "YouTube -> https://www.youtube.com/user/sweetgreen"
+      },
+      {
+        "id": "ev_079",
+        "label": "form",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "What is your email address*? Next Your request has been submitted successfully. Change email address What is the zip code of the next neighborhood you'd like to see sweetgreen in?* Submit Something went wrong. Please try again later."
+      },
+      {
+        "id": "ev_080",
+        "label": "form",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Email Address → Hm, there was an error adding your email to the list. Thank you for subscribing! You'll be hearing from us."
+      },
+      {
+        "id": "ev_081",
+        "label": "form",
+        "url": "https://www.sweetgreen.com/mission",
+        "quote": "Email Address → Hm, there was an error adding your email to the list. Thank you for subscribing! You'll be hearing from us."
+      },
+      {
+        "id": "ev_082",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/mission",
+        "quote": "Learn more → -> https://www.youtube.com/watch?v=o2MNNPX_x1I"
+      },
+      {
+        "id": "ev_083",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/mission",
+        "quote": "Instagram -> https://www.instagram.com/sweetgreen/"
+      },
+      {
+        "id": "ev_084",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/mission",
+        "quote": "Twitter -> https://twitter.com/sweetgreen"
+      },
+      {
+        "id": "ev_085",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/mission",
+        "quote": "Facebook -> http://facebook.com/sweetgreen"
+      },
+      {
+        "id": "ev_086",
+        "label": "form",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "Email Address → Hm, there was an error adding your email to the list. Thank you for subscribing! You'll be hearing from us."
+      },
+      {
+        "id": "ev_087",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "Instagram -> https://www.instagram.com/sweetgreen/"
+      },
+      {
+        "id": "ev_088",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "Twitter -> https://twitter.com/sweetgreen"
+      },
+      {
+        "id": "ev_089",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "Facebook -> http://facebook.com/sweetgreen"
+      },
+      {
+        "id": "ev_090",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "YouTube -> https://www.youtube.com/user/sweetgreen"
+      },
+      {
+        "id": "ev_091",
+        "label": "form",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "Email Address → Hm, there was an error adding your email to the list. Thank you for subscribing! You'll be hearing from us."
+      },
+      {
+        "id": "ev_092",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "Instagram -> https://www.instagram.com/sweetgreen/"
+      },
+      {
+        "id": "ev_093",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "Twitter -> https://twitter.com/sweetgreen"
+      },
+      {
+        "id": "ev_094",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "Facebook -> http://facebook.com/sweetgreen"
+      },
+      {
+        "id": "ev_095",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "YouTube -> https://www.youtube.com/user/sweetgreen"
+      },
+      {
+        "id": "ev_096",
+        "label": "contact_email",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "catering@sweetgreen.com"
+      },
+      {
+        "id": "ev_097",
+        "label": "contact_email",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "catering@sweetgreen.com"
+      },
+      {
+        "id": "ev_098",
+        "label": "contact_email",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "catering@sweetgreen.com"
+      },
+      {
+        "id": "ev_099",
+        "label": "contact_phone",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "1-800-488-1803"
+      },
+      {
+        "id": "ev_100",
+        "label": "contact_email",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "catering@sweetgreen.com"
+      },
+      {
+        "id": "ev_101",
+        "label": "contact_email",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "catering@sweetgreen.com"
+      },
+      {
+        "id": "ev_102",
+        "label": "contact_email",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "catering@sweetgreen.com"
+      },
+      {
+        "id": "ev_103",
+        "label": "contact_phone",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "1-800-488-1803"
+      },
+      {
+        "id": "ev_104",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_105",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/",
+        "quote": "Order now"
+      },
+      {
+        "id": "ev_106",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/",
+        "quote": "Order now →"
+      },
+      {
+        "id": "ev_107",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/",
+        "quote": "Order now →"
+      },
+      {
+        "id": "ev_108",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/",
+        "quote": "Gift Cards"
+      },
+      {
+        "id": "ev_109",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/?contact=true",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_110",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/?contact=true",
+        "quote": "Order now"
+      },
+      {
+        "id": "ev_111",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/?contact=true",
+        "quote": "Order now →"
+      },
+      {
+        "id": "ev_112",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/?contact=true",
+        "quote": "Order now →"
+      },
+      {
+        "id": "ev_113",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/?contact=true",
+        "quote": "Gift Cards"
+      },
+      {
+        "id": "ev_114",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_115",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "GET IT →"
+      },
+      {
+        "id": "ev_116",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Order Now →"
+      },
+      {
+        "id": "ev_117",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Gift Cards"
+      },
+      {
+        "id": "ev_118",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/carbon-menu-labeling-methodology",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_119",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/carbon-menu-labeling-methodology",
+        "quote": "Gift Cards"
+      },
+      {
+        "id": "ev_120",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_121",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_122",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_123",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_124",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_125",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_126",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_127",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_128",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_129",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_130",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_131",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_132",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_133",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_134",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_135",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_136",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_137",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_138",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_139",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_140",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_141",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_142",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_143",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_144",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_145",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_146",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_147",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_148",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_149",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_150",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_151",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_152",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_153",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_154",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_155",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_156",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_157",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_158",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_159",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_160",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_161",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_162",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_163",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_164",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_165",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_166",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_167",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_168",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_169",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_170",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_171",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_172",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_173",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_174",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_175",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_176",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_177",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_178",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_179",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_180",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_181",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_182",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_183",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_184",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_185",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_186",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_187",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_188",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_189",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_190",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_191",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_192",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_193",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_194",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_195",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_196",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_197",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_198",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_199",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_200",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_201",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_202",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_203",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_204",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_205",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_206",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_207",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_208",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_209",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_210",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_211",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_212",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_213",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_214",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_215",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_216",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_217",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_218",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_219",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_220",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_221",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_222",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_223",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_224",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_225",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_226",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_227",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_228",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_229",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_230",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_231",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_232",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_233",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_234",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_235",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_236",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_237",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/mission",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_238",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/mission",
+        "quote": "Gift Cards"
+      },
+      {
+        "id": "ev_239",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "Order catering"
+      },
+      {
+        "id": "ev_240",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "Order catering now"
+      },
+      {
+        "id": "ev_241",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "Gift Cards"
+      },
+      {
+        "id": "ev_242",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "Order catering"
+      },
+      {
+        "id": "ev_243",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "Order catering now"
+      },
+      {
+        "id": "ev_244",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "Gift Cards"
+      },
+      {
+        "id": "ev_245",
+        "label": "location",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "San Francisco, CA 94123 Mon - Thu 10:00am - 11:00pmFri - Sun 10:30am - 11:00pm View Order Marina del Rey 4718 Admiralty Way Marina del Rey, CA 90292 Mon - Sun 10:00am - 10:00pm View Order Market + Battery Coming soon 22 Battery Street San Francisco, CA 94111..."
+      },
+      {
+        "id": "ev_246",
+        "label": "location",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Colorado Boulevard, Suite L-110 Denver, CO 80222 Mon - Sun 10:00am - 9:00pm View Order Connecticut (5) Darien 126 Heights Road Darien, CT 6820 Mon - Sun 10:30am - 9:00pm View Order Farmington Valley 110 Albany Turnpike Suite 911 Canton, CT 6019 Mon - Sun 10:3..."
+      },
+      {
+        "id": "ev_247",
+        "label": "location",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Street, NW Washington, DC 20004 Mon - Fri 10:30am - 8:30pmSat - Sun 10:30am - 4:00pm View Order Union Market 1304 4th Street Northeast Washington, DC 20002 Mon - Fri 10:00am - 8:00pmSat - Sun 10:00am - 7:00pm View Order West End 2238 M St NW Washington, DC 20..."
+      },
+      {
+        "id": "ev_248",
+        "label": "hours",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "San Francisco, CA 94123 Mon - Thu 10:00am - 11:00pmFri - Sun 10:30am - 11:00pm View Order Marina del Rey 4718 Admiralty Way Marina del Rey, CA 90292 Mon - Sun 10:00am - 10:00pm View Order Market + Battery Coming soon 22 Battery Street San Francisco, CA 94111..."
+      },
+      {
+        "id": "ev_249",
+        "label": "hours",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Pasadena, CA 91101 Mon - Thu 10:00am - 9:00pmFri - Sat 10:00am - 10:00pmSun 10:00am - 9:00pm View Order Pruneyard 1875 S."
+      },
+      {
+        "id": "ev_250",
+        "label": "hours",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Bascom Avenue, Suite 450 Campbell, CA 95008 Mon - Fri 10:00am - 10:00pmSat - Sun 10:30am - 10:00pm View Order Rancho Cucamonga 7811 Monet Ave space 1305 Rancho Cucamonga, CA 91739 Mon - Sun 10:30am - 9:00pm View Order Redwood City Coming soon 1101 El Camino R..."
+      }
+    ]
+  },
+  "agentCard": {
+    "agentCardVersion": "1.0",
+    "generatedFrom": {
+      "businessMapVersion": "1.0",
+      "startUrl": "https://www.sweetgreen.com/",
+      "pagesScanned": 8
+    },
+    "businessIdentity": {
+      "name": "sweetgreen",
+      "description": "healthy salads, hearty wraps, grain bowls, and warm plates made in-house from scratch, using whole produce delivered that morning.",
+      "likelyTypes": [
+        "restaurant_or_food_service"
+      ],
+      "confidence": "medium",
+      "evidence": [
+        {
+          "source": "https://www.sweetgreen.com/",
+          "quote": "sweetgreen | Inspiring healthier communities"
+        },
+        {
+          "source": "https://www.sweetgreen.com/",
+          "quote": "healthy salads, hearty wraps, grain bowls, and warm plates made in-house from scratch, using whole produce delivered that morning."
+        }
+      ]
+    },
+    "interactionModel": {
+      "primaryWebsite": "https://www.sweetgreen.com/",
+      "customerCapabilities": [
+        {
+          "id": "contact_business",
+          "label": "Contact the business",
+          "status": "available_from_site_evidence",
+          "interactionType": "link",
+          "targetUrl": "https://www.sweetgreen.com/contact",
+          "evidence": [
+            {
+              "source": "https://www.sweetgreen.com/",
+              "quote": "Let us know"
+            }
+          ]
+        },
+        {
+          "id": "buy_or_checkout",
+          "label": "Buy, order, or checkout",
+          "status": "available_from_site_evidence",
+          "interactionType": "link",
+          "targetUrl": "https://order.sweetgreen.com/",
+          "evidence": [
+            {
+              "source": "https://www.sweetgreen.com/",
+              "quote": "Order"
+            }
+          ]
+        }
+      ],
+      "knownTools": [
+        {
+          "type": "form",
+          "label": "Contact or lead form",
+          "url": "https://www.sweetgreen.com/",
+          "method": "GET",
+          "fields": [
+            {
+              "tag": "input",
+              "type": "email",
+              "name": "email",
+              "label": "Email Address"
+            }
+          ],
+          "external": false,
+          "evidence": [
+            {
+              "source": "https://www.sweetgreen.com/",
+              "quote": "Email Address → Hm, there was an error adding your email to the list. Thank you for subscribing! You'll be hearing from us."
+            }
+          ]
+        },
+        {
+          "type": "social",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/sweetgreen/",
+          "method": null,
+          "fields": null,
+          "external": true,
+          "evidence": [
+            {
+              "source": "https://www.sweetgreen.com/",
+              "quote": "Instagram -> https://www.instagram.com/sweetgreen/"
+            }
+          ]
+        },
+        {
+          "type": "social",
+          "label": "Twitter",
+          "url": "https://twitter.com/sweetgreen",
+          "method": null,
+          "fields": null,
+          "external": true,
+          "evidence": [
+            {
+              "source": "https://www.sweetgreen.com/",
+              "quote": "Twitter -> https://twitter.com/sweetgreen"
+            }
+          ]
+        },
+        {
+          "type": "social",
+          "label": "Facebook",
+          "url": "http://facebook.com/sweetgreen",
+          "method": null,
+          "fields": null,
+          "external": true,
+          "evidence": [
+            {
+              "source": "https://www.sweetgreen.com/",
+              "quote": "Facebook -> http://facebook.com/sweetgreen"
+            }
+          ]
+        },
+        {
+          "type": "social",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/user/sweetgreen",
+          "method": null,
+          "fields": null,
+          "external": true,
+          "evidence": [
+            {
+              "source": "https://www.sweetgreen.com/",
+              "quote": "YouTube -> https://www.youtube.com/user/sweetgreen"
+            }
+          ]
+        },
+        {
+          "type": "form",
+          "label": "Contact or lead form",
+          "url": "https://www.sweetgreen.com/?contact=true",
+          "method": "GET",
+          "fields": [
+            {
+              "tag": "input",
+              "type": "email",
+              "name": "email",
+              "label": "Email Address"
+            }
+          ],
+          "external": false,
+          "evidence": [
+            {
+              "source": "https://www.sweetgreen.com/?contact=true",
+              "quote": "Email Address → Hm, there was an error adding your email to the list. Thank you for subscribing! You'll be hearing from us."
+            }
+          ]
+        },
+        {
+          "type": "form",
+          "label": "Contact or lead form",
+          "url": "https://www.sweetgreen.com/menu",
+          "method": "GET",
+          "fields": [
+            {
+              "tag": "input",
+              "type": "email",
+              "name": "email",
+              "label": "Email Address"
+            }
+          ],
+          "external": false,
+          "evidence": [
+            {
+              "source": "https://www.sweetgreen.com/menu",
+              "quote": "Email Address → Hm, there was an error adding your email to the list. Thank you for subscribing! You'll be hearing from us."
+            }
+          ]
+        },
+        {
+          "type": "form",
+          "label": "Contact or lead form",
+          "url": "https://www.sweetgreen.com/carbon-menu-labeling-methodology",
+          "method": "GET",
+          "fields": [
+            {
+              "tag": "input",
+              "type": "email",
+              "name": "email",
+              "label": "Email Address"
+            }
+          ],
+          "external": false,
+          "evidence": [
+            {
+              "source": "https://www.sweetgreen.com/carbon-menu-labeling-methodology",
+              "quote": "Email Address → Hm, there was an error adding your email to the list. Thank you for subscribing! You'll be hearing from us."
+            }
+          ]
+        },
+        {
+          "type": "form",
+          "label": "Contact or lead form",
+          "url": "https://www.sweetgreen.com/locations/",
+          "method": "GET",
+          "fields": [
+            {
+              "tag": "input",
+              "type": "email",
+              "name": "email",
+              "label": "name@example.com"
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "zipCode",
+              "label": "90011"
+            }
+          ],
+          "external": false,
+          "evidence": [
+            {
+              "source": "https://www.sweetgreen.com/locations/",
+              "quote": "What is your email address*? Next Your request has been submitted successfully. Change email address What is the zip code of the next neighborhood you'd like to see sweetgreen in?* Submit Something went wrong. Please try again later."
+            }
+          ]
+        },
+        {
+          "type": "form",
+          "label": "Contact or lead form",
+          "url": "https://www.sweetgreen.com/mission",
+          "method": "GET",
+          "fields": [
+            {
+              "tag": "input",
+              "type": "email",
+              "name": "email",
+              "label": "Email Address"
+            }
+          ],
+          "external": false,
+          "evidence": [
+            {
+              "source": "https://www.sweetgreen.com/mission",
+              "quote": "Email Address → Hm, there was an error adding your email to the list. Thank you for subscribing! You'll be hearing from us."
+            }
+          ]
+        },
+        {
+          "type": "social",
+          "label": "Learn more →",
+          "url": "https://www.youtube.com/watch?v=o2MNNPX_x1I",
+          "method": null,
+          "fields": null,
+          "external": true,
+          "evidence": [
+            {
+              "source": "https://www.sweetgreen.com/mission",
+              "quote": "Learn more → -> https://www.youtube.com/watch?v=o2MNNPX_x1I"
+            }
+          ]
+        },
+        {
+          "type": "form",
+          "label": "Contact or lead form",
+          "url": "https://www.sweetgreen.com/catering/",
+          "method": "GET",
+          "fields": [
+            {
+              "tag": "input",
+              "type": "email",
+              "name": "email",
+              "label": "Email Address"
+            }
+          ],
+          "external": false,
+          "evidence": [
+            {
+              "source": "https://www.sweetgreen.com/catering/",
+              "quote": "Email Address → Hm, there was an error adding your email to the list. Thank you for subscribing! You'll be hearing from us."
+            }
+          ]
+        }
+      ],
+      "contactChannels": [
+        {
+          "kind": "email",
+          "value": "catering@sweetgreen.com",
+          "evidence": [
+            {
+              "source": "https://www.sweetgreen.com/catering/",
+              "quote": "catering@sweetgreen.com"
+            }
+          ]
+        },
+        {
+          "kind": "phone",
+          "value": "1-800-488-1803",
+          "evidence": [
+            {
+              "source": "https://www.sweetgreen.com/catering/",
+              "quote": "1-800-488-1803"
+            }
+          ]
+        }
+      ],
+      "paymentOrPurchaseSignals": [
+        {
+          "kind": "payment_or_purchase_link",
+          "value": "https://order.sweetgreen.com/",
+          "evidence": [
+            {
+              "source": "https://www.sweetgreen.com/",
+              "quote": "Order"
+            }
+          ]
+        },
+        {
+          "kind": "payment_or_purchase_link",
+          "value": "https://order.sweetgreen.com/menu?category=wraps",
+          "evidence": [
+            {
+              "source": "https://www.sweetgreen.com/",
+              "quote": "Order now"
+            }
+          ]
+        },
+        {
+          "kind": "payment_or_purchase_link",
+          "value": "https://order.sweetgreen.com/order-product/pesto-chicken-parmesan",
+          "evidence": [
+            {
+              "source": "https://www.sweetgreen.com/",
+              "quote": "Order now →"
+            }
+          ]
+        },
+        {
+          "kind": "payment_or_purchase_link",
+          "value": "https://order.sweetgreen.com/order-product/rosemary-focaccia",
+          "evidence": [
+            {
+              "source": "https://www.sweetgreen.com/",
+              "quote": "Order now →"
+            }
+          ]
+        },
+        {
+          "kind": "payment_or_purchase_link",
+          "value": "https://order.sweetgreen.com/gift",
+          "evidence": [
+            {
+              "source": "https://www.sweetgreen.com/",
+              "quote": "Gift Cards"
+            }
+          ]
+        },
+        {
+          "kind": "payment_or_purchase_link",
+          "value": "http://order.sweetgreen.com/",
+          "evidence": [
+            {
+              "source": "https://www.sweetgreen.com/menu",
+              "quote": "Order Now →"
+            }
+          ]
+        },
+        {
+          "kind": "payment_or_purchase_link",
+          "value": "https://order.sweetgreen.com/bentonville/menu",
+          "evidence": [
+            {
+              "source": "https://www.sweetgreen.com/locations/",
+              "quote": "Order"
+            }
+          ]
+        },
+        {
+          "kind": "payment_or_purchase_link",
+          "value": "https://order.sweetgreen.com/fayetteville/menu",
+          "evidence": [
+            {
+              "source": "https://www.sweetgreen.com/locations/",
+              "quote": "Order"
+            }
+          ]
+        }
+      ],
+      "authSignals": []
+    },
+    "offerings": [
+      {
+        "name": "Support + Services",
+        "category": "service",
+        "evidence": [
+          {
+            "source": "https://www.sweetgreen.com/",
+            "quote": "Support + Services"
+          }
+        ]
+      },
+      {
+        "name": "We source the best ingredients from farmers we know + prepare them fresh.",
+        "category": "menu_item_or_food_service",
+        "evidence": [
+          {
+            "source": "https://www.sweetgreen.com/menu",
+            "quote": "We source the best ingredients from farmers we know + prepare them fresh."
+          }
+        ]
+      },
+      {
+        "name": "WRAPS HIT DIFFERENT",
+        "category": "menu_item_or_food_service",
+        "evidence": [
+          {
+            "source": "https://www.sweetgreen.com/menu",
+            "quote": "WRAPS HIT DIFFERENT"
+          }
+        ]
+      },
+      {
+        "name": "New! Wraps",
+        "category": "menu_item_or_food_service",
+        "evidence": [
+          {
+            "source": "https://www.sweetgreen.com/menu",
+            "quote": "New! Wraps"
+          }
+        ]
+      },
+      {
+        "name": "Classic Chicken Caesar",
+        "category": "menu_item_or_food_service",
+        "evidence": [
+          {
+            "source": "https://www.sweetgreen.com/menu",
+            "quote": "Classic Chicken Caesar"
+          }
+        ]
+      },
+      {
+        "name": "Cali Chicken Club",
+        "category": "menu_item_or_food_service",
+        "evidence": [
+          {
+            "source": "https://www.sweetgreen.com/menu",
+            "quote": "Cali Chicken Club"
+          }
+        ]
+      },
+      {
+        "name": "Chicken Jalapeño Ranch",
+        "category": "menu_item_or_food_service",
+        "evidence": [
+          {
+            "source": "https://www.sweetgreen.com/menu",
+            "quote": "Chicken Jalapeño Ranch"
+          }
+        ]
+      },
+      {
+        "name": "Saucy KBBQ Chicken",
+        "category": "menu_item_or_food_service",
+        "evidence": [
+          {
+            "source": "https://www.sweetgreen.com/menu",
+            "quote": "Saucy KBBQ Chicken"
+          }
+        ]
+      },
+      {
+        "name": "Protein Plates",
+        "category": "menu_item_or_food_service",
+        "evidence": [
+          {
+            "source": "https://www.sweetgreen.com/menu",
+            "quote": "Protein Plates"
+          }
+        ]
+      },
+      {
+        "name": "Caramelized Garlic Steak",
+        "category": "menu_item_or_food_service",
+        "evidence": [
+          {
+            "source": "https://www.sweetgreen.com/menu",
+            "quote": "Caramelized Garlic Steak"
+          }
+        ]
+      },
+      {
+        "name": "Miso Glazed Salmon",
+        "category": "menu_item_or_food_service",
+        "evidence": [
+          {
+            "source": "https://www.sweetgreen.com/menu",
+            "quote": "Miso Glazed Salmon"
+          }
+        ]
+      },
+      {
+        "name": "Hot Honey Chicken",
+        "category": "menu_item_or_food_service",
+        "evidence": [
+          {
+            "source": "https://www.sweetgreen.com/menu",
+            "quote": "Hot Honey Chicken"
+          }
+        ]
+      }
+    ],
+    "operatingContext": {
+      "locations": [
+        {
+          "value": "San Francisco, CA 94123 Mon - Thu 10:00am - 11:00pmFri - Sun 10:30am - 11:00pm View Order Marina del Rey 4718 Admiralty Way Marina del Rey, CA 90292 Mon - Sun 10:00am - 10:00pm View Order Market + Battery Coming soon 22 Battery Street San Francisco, CA 94111...",
+          "evidence": [
+            {
+              "source": "https://www.sweetgreen.com/locations/",
+              "quote": "San Francisco, CA 94123 Mon - Thu 10:00am - 11:00pmFri - Sun 10:30am - 11:00pm View Order Marina del Rey 4718 Admiralty Way Marina del Rey, CA 90292 Mon - Sun 10:00am - 10:00pm View Order Market + Battery Coming soon 22 Battery Street San Francisco, CA 94111..."
+            }
+          ]
+        },
+        {
+          "value": "Colorado Boulevard, Suite L-110 Denver, CO 80222 Mon - Sun 10:00am - 9:00pm View Order Connecticut (5) Darien 126 Heights Road Darien, CT 6820 Mon - Sun 10:30am - 9:00pm View Order Farmington Valley 110 Albany Turnpike Suite 911 Canton, CT 6019 Mon - Sun 10:3...",
+          "evidence": [
+            {
+              "source": "https://www.sweetgreen.com/locations/",
+              "quote": "Colorado Boulevard, Suite L-110 Denver, CO 80222 Mon - Sun 10:00am - 9:00pm View Order Connecticut (5) Darien 126 Heights Road Darien, CT 6820 Mon - Sun 10:30am - 9:00pm View Order Farmington Valley 110 Albany Turnpike Suite 911 Canton, CT 6019 Mon - Sun 10:3..."
+            }
+          ]
+        },
+        {
+          "value": "Street, NW Washington, DC 20004 Mon - Fri 10:30am - 8:30pmSat - Sun 10:30am - 4:00pm View Order Union Market 1304 4th Street Northeast Washington, DC 20002 Mon - Fri 10:00am - 8:00pmSat - Sun 10:00am - 7:00pm View Order West End 2238 M St NW Washington, DC 20...",
+          "evidence": [
+            {
+              "source": "https://www.sweetgreen.com/locations/",
+              "quote": "Street, NW Washington, DC 20004 Mon - Fri 10:30am - 8:30pmSat - Sun 10:30am - 4:00pm View Order Union Market 1304 4th Street Northeast Washington, DC 20002 Mon - Fri 10:00am - 8:00pmSat - Sun 10:00am - 7:00pm View Order West End 2238 M St NW Washington, DC 20..."
+            }
+          ]
+        }
+      ],
+      "hours": [
+        {
+          "value": "San Francisco, CA 94123 Mon - Thu 10:00am - 11:00pmFri - Sun 10:30am - 11:00pm View Order Marina del Rey 4718 Admiralty Way Marina del Rey, CA 90292 Mon - Sun 10:00am - 10:00pm View Order Market + Battery Coming soon 22 Battery Street San Francisco, CA 94111...",
+          "evidence": [
+            {
+              "source": "https://www.sweetgreen.com/locations/",
+              "quote": "San Francisco, CA 94123 Mon - Thu 10:00am - 11:00pmFri - Sun 10:30am - 11:00pm View Order Marina del Rey 4718 Admiralty Way Marina del Rey, CA 90292 Mon - Sun 10:00am - 10:00pm View Order Market + Battery Coming soon 22 Battery Street San Francisco, CA 94111..."
+            }
+          ]
+        },
+        {
+          "value": "Pasadena, CA 91101 Mon - Thu 10:00am - 9:00pmFri - Sat 10:00am - 10:00pmSun 10:00am - 9:00pm View Order Pruneyard 1875 S.",
+          "evidence": [
+            {
+              "source": "https://www.sweetgreen.com/locations/",
+              "quote": "Pasadena, CA 91101 Mon - Thu 10:00am - 9:00pmFri - Sat 10:00am - 10:00pmSun 10:00am - 9:00pm View Order Pruneyard 1875 S."
+            }
+          ]
+        },
+        {
+          "value": "Bascom Avenue, Suite 450 Campbell, CA 95008 Mon - Fri 10:00am - 10:00pmSat - Sun 10:30am - 10:00pm View Order Rancho Cucamonga 7811 Monet Ave space 1305 Rancho Cucamonga, CA 91739 Mon - Sun 10:30am - 9:00pm View Order Redwood City Coming soon 1101 El Camino R...",
+          "evidence": [
+            {
+              "source": "https://www.sweetgreen.com/locations/",
+              "quote": "Bascom Avenue, Suite 450 Campbell, CA 95008 Mon - Fri 10:00am - 10:00pmSat - Sun 10:30am - 10:00pm View Order Rancho Cucamonga 7811 Monet Ave space 1305 Rancho Cucamonga, CA 91739 Mon - Sun 10:30am - 9:00pm View Order Redwood City Coming soon 1101 El Camino R..."
+            }
+          ]
+        }
+      ]
+    },
+    "unknowns": [
+      "Login, portal, or account access was not proven by scanned pages."
+    ],
+    "agentInstructions": {
+      "constraints": [
+        "Use only capabilities marked available_from_site_evidence.",
+        "Treat missing, unclear, or unevidenced details as unknown.",
+        "Do not submit forms, create accounts, make purchases, or send messages without explicit user confirmation.",
+        "When citing facts to a downstream agent or user, include the source URL from evidence."
+      ],
+      "recommendedNextQuestions": [
+        "Is there an account portal or login flow an agent should know about?"
+      ],
+      "safeAutomationPolicy": {
+        "canReadPublicPages": true,
+        "canPrepareDrafts": true,
+        "canNavigateToLinks": true,
+        "requiresHumanApproval": [
+          "form_submission",
+          "purchase",
+          "account_creation",
+          "payment",
+          "message_send"
+        ],
+        "prohibitedWithoutMoreEvidence": [
+          "Login, portal, or account access was not proven by scanned pages."
+        ]
+      }
+    },
+    "sourceEvidence": [
+      {
+        "id": "ev_001",
+        "label": "business_name",
+        "url": "https://www.sweetgreen.com/",
+        "quote": "sweetgreen | Inspiring healthier communities"
+      },
+      {
+        "id": "ev_002",
+        "label": "business_description",
+        "url": "https://www.sweetgreen.com/",
+        "quote": "healthy salads, hearty wraps, grain bowls, and warm plates made in-house from scratch, using whole produce delivered that morning."
+      },
+      {
+        "id": "ev_003",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/",
+        "quote": "Support + Services"
+      },
+      {
+        "id": "ev_004",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/?contact=true",
+        "quote": "Support + Services"
+      },
+      {
+        "id": "ev_005",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "We source the best ingredients from farmers we know + prepare them fresh."
+      },
+      {
+        "id": "ev_006",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "WRAPS HIT DIFFERENT"
+      },
+      {
+        "id": "ev_007",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "New! Wraps"
+      },
+      {
+        "id": "ev_008",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Classic Chicken Caesar"
+      },
+      {
+        "id": "ev_009",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Cali Chicken Club"
+      },
+      {
+        "id": "ev_010",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Chicken Jalapeño Ranch"
+      },
+      {
+        "id": "ev_011",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Saucy KBBQ Chicken"
+      },
+      {
+        "id": "ev_012",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Protein Plates"
+      },
+      {
+        "id": "ev_013",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Caramelized Garlic Steak"
+      },
+      {
+        "id": "ev_014",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Miso Glazed Salmon"
+      },
+      {
+        "id": "ev_015",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Hot Honey Chicken"
+      },
+      {
+        "id": "ev_016",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Steak Mezze"
+      },
+      {
+        "id": "ev_017",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Bowls"
+      },
+      {
+        "id": "ev_018",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Harvest Bowl"
+      },
+      {
+        "id": "ev_019",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Crispy Rice Bowl"
+      },
+      {
+        "id": "ev_020",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Chicken Pesto Parm"
+      },
+      {
+        "id": "ev_021",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Chicken Avocado Ranch"
+      },
+      {
+        "id": "ev_022",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Shroomami"
+      },
+      {
+        "id": "ev_023",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Fish Taco"
+      },
+      {
+        "id": "ev_024",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Steak Honey Crunch"
+      },
+      {
+        "id": "ev_025",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Salads"
+      },
+      {
+        "id": "ev_026",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Chicken Sesame Crunch"
+      },
+      {
+        "id": "ev_027",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Kale Caesar"
+      },
+      {
+        "id": "ev_028",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Guacamole Greens"
+      },
+      {
+        "id": "ev_029",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Super Green Goddess"
+      },
+      {
+        "id": "ev_030",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "BBQ Chicken Salad"
+      },
+      {
+        "id": "ev_031",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Hummus Crunch"
+      },
+      {
+        "id": "ev_032",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Buffalo Chicken"
+      },
+      {
+        "id": "ev_033",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Kids' Meals"
+      },
+      {
+        "id": "ev_034",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "RANCHY CHICKEN + RICE"
+      },
+      {
+        "id": "ev_035",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "LITTLE HARVEST"
+      },
+      {
+        "id": "ev_036",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Mini Mezze"
+      },
+      {
+        "id": "ev_037",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Honest Kids Apple Juice"
+      },
+      {
+        "id": "ev_038",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Sides"
+      },
+      {
+        "id": "ev_039",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Rosemary Focaccia"
+      },
+      {
+        "id": "ev_040",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Hummus + Focaccia"
+      },
+      {
+        "id": "ev_041",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Roasted Sweet Potatoes"
+      },
+      {
+        "id": "ev_042",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "SG x Siete: Green Goddess Ranch Potato Chips"
+      },
+      {
+        "id": "ev_043",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Siete Sea Salt Potato Chips"
+      },
+      {
+        "id": "ev_044",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Dessert"
+      },
+      {
+        "id": "ev_045",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/carbon-menu-labeling-methodology",
+        "quote": "Carbon Menu Labeling Methodology"
+      },
+      {
+        "id": "ev_046",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/carbon-menu-labeling-methodology",
+        "quote": "Join Our Newsletter"
+      },
+      {
+        "id": "ev_047",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/carbon-menu-labeling-methodology",
+        "quote": "Download the app"
+      },
+      {
+        "id": "ev_048",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/carbon-menu-labeling-methodology",
+        "quote": "About Us"
+      },
+      {
+        "id": "ev_049",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/carbon-menu-labeling-methodology",
+        "quote": "Social Media"
+      },
+      {
+        "id": "ev_050",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/carbon-menu-labeling-methodology",
+        "quote": "Support + Services"
+      },
+      {
+        "id": "ev_051",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/carbon-menu-labeling-methodology",
+        "quote": "Legal"
+      },
+      {
+        "id": "ev_052",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/mission",
+        "quote": "Support + Services"
+      },
+      {
+        "id": "ev_053",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "Support + Services"
+      },
+      {
+        "id": "ev_054",
+        "label": "offering_snippet",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "We offer individually packaged salads & warm bowls, sides, desserts, and assorted beverages & buffet-style catering at select locations."
+      },
+      {
+        "id": "ev_055",
+        "label": "offering_heading",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "Support + Services"
+      },
+      {
+        "id": "ev_056",
+        "label": "offering_snippet",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "We offer individually packaged salads & warm bowls, sides, desserts, and assorted beverages & buffet-style catering at select locations."
+      },
+      {
+        "id": "ev_057",
+        "label": "customer_action:contact_business",
+        "url": "https://www.sweetgreen.com/",
+        "quote": "Let us know"
+      },
+      {
+        "id": "ev_058",
+        "label": "customer_action:buy_or_checkout",
+        "url": "https://www.sweetgreen.com/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_059",
+        "label": "form",
+        "url": "https://www.sweetgreen.com/",
+        "quote": "Email Address → Hm, there was an error adding your email to the list. Thank you for subscribing! You'll be hearing from us."
+      },
+      {
+        "id": "ev_060",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/",
+        "quote": "Instagram -> https://www.instagram.com/sweetgreen/"
+      },
+      {
+        "id": "ev_061",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/",
+        "quote": "Twitter -> https://twitter.com/sweetgreen"
+      },
+      {
+        "id": "ev_062",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/",
+        "quote": "Facebook -> http://facebook.com/sweetgreen"
+      },
+      {
+        "id": "ev_063",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/",
+        "quote": "YouTube -> https://www.youtube.com/user/sweetgreen"
+      },
+      {
+        "id": "ev_064",
+        "label": "form",
+        "url": "https://www.sweetgreen.com/?contact=true",
+        "quote": "Email Address → Hm, there was an error adding your email to the list. Thank you for subscribing! You'll be hearing from us."
+      },
+      {
+        "id": "ev_065",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/?contact=true",
+        "quote": "Instagram -> https://www.instagram.com/sweetgreen/"
+      },
+      {
+        "id": "ev_066",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/?contact=true",
+        "quote": "Twitter -> https://twitter.com/sweetgreen"
+      },
+      {
+        "id": "ev_067",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/?contact=true",
+        "quote": "Facebook -> http://facebook.com/sweetgreen"
+      },
+      {
+        "id": "ev_068",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/?contact=true",
+        "quote": "YouTube -> https://www.youtube.com/user/sweetgreen"
+      },
+      {
+        "id": "ev_069",
+        "label": "form",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Email Address → Hm, there was an error adding your email to the list. Thank you for subscribing! You'll be hearing from us."
+      },
+      {
+        "id": "ev_070",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Instagram -> https://www.instagram.com/sweetgreen/"
+      },
+      {
+        "id": "ev_071",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Twitter -> https://twitter.com/sweetgreen"
+      },
+      {
+        "id": "ev_072",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Facebook -> http://facebook.com/sweetgreen"
+      },
+      {
+        "id": "ev_073",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "YouTube -> https://www.youtube.com/user/sweetgreen"
+      },
+      {
+        "id": "ev_074",
+        "label": "form",
+        "url": "https://www.sweetgreen.com/carbon-menu-labeling-methodology",
+        "quote": "Email Address → Hm, there was an error adding your email to the list. Thank you for subscribing! You'll be hearing from us."
+      },
+      {
+        "id": "ev_075",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/carbon-menu-labeling-methodology",
+        "quote": "Instagram -> https://www.instagram.com/sweetgreen/"
+      },
+      {
+        "id": "ev_076",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/carbon-menu-labeling-methodology",
+        "quote": "Twitter -> https://twitter.com/sweetgreen"
+      },
+      {
+        "id": "ev_077",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/carbon-menu-labeling-methodology",
+        "quote": "Facebook -> http://facebook.com/sweetgreen"
+      },
+      {
+        "id": "ev_078",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/carbon-menu-labeling-methodology",
+        "quote": "YouTube -> https://www.youtube.com/user/sweetgreen"
+      },
+      {
+        "id": "ev_079",
+        "label": "form",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "What is your email address*? Next Your request has been submitted successfully. Change email address What is the zip code of the next neighborhood you'd like to see sweetgreen in?* Submit Something went wrong. Please try again later."
+      },
+      {
+        "id": "ev_080",
+        "label": "form",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Email Address → Hm, there was an error adding your email to the list. Thank you for subscribing! You'll be hearing from us."
+      },
+      {
+        "id": "ev_081",
+        "label": "form",
+        "url": "https://www.sweetgreen.com/mission",
+        "quote": "Email Address → Hm, there was an error adding your email to the list. Thank you for subscribing! You'll be hearing from us."
+      },
+      {
+        "id": "ev_082",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/mission",
+        "quote": "Learn more → -> https://www.youtube.com/watch?v=o2MNNPX_x1I"
+      },
+      {
+        "id": "ev_083",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/mission",
+        "quote": "Instagram -> https://www.instagram.com/sweetgreen/"
+      },
+      {
+        "id": "ev_084",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/mission",
+        "quote": "Twitter -> https://twitter.com/sweetgreen"
+      },
+      {
+        "id": "ev_085",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/mission",
+        "quote": "Facebook -> http://facebook.com/sweetgreen"
+      },
+      {
+        "id": "ev_086",
+        "label": "form",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "Email Address → Hm, there was an error adding your email to the list. Thank you for subscribing! You'll be hearing from us."
+      },
+      {
+        "id": "ev_087",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "Instagram -> https://www.instagram.com/sweetgreen/"
+      },
+      {
+        "id": "ev_088",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "Twitter -> https://twitter.com/sweetgreen"
+      },
+      {
+        "id": "ev_089",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "Facebook -> http://facebook.com/sweetgreen"
+      },
+      {
+        "id": "ev_090",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "YouTube -> https://www.youtube.com/user/sweetgreen"
+      },
+      {
+        "id": "ev_091",
+        "label": "form",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "Email Address → Hm, there was an error adding your email to the list. Thank you for subscribing! You'll be hearing from us."
+      },
+      {
+        "id": "ev_092",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "Instagram -> https://www.instagram.com/sweetgreen/"
+      },
+      {
+        "id": "ev_093",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "Twitter -> https://twitter.com/sweetgreen"
+      },
+      {
+        "id": "ev_094",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "Facebook -> http://facebook.com/sweetgreen"
+      },
+      {
+        "id": "ev_095",
+        "label": "tool:social",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "YouTube -> https://www.youtube.com/user/sweetgreen"
+      },
+      {
+        "id": "ev_096",
+        "label": "contact_email",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "catering@sweetgreen.com"
+      },
+      {
+        "id": "ev_097",
+        "label": "contact_email",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "catering@sweetgreen.com"
+      },
+      {
+        "id": "ev_098",
+        "label": "contact_email",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "catering@sweetgreen.com"
+      },
+      {
+        "id": "ev_099",
+        "label": "contact_phone",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "1-800-488-1803"
+      },
+      {
+        "id": "ev_100",
+        "label": "contact_email",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "catering@sweetgreen.com"
+      },
+      {
+        "id": "ev_101",
+        "label": "contact_email",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "catering@sweetgreen.com"
+      },
+      {
+        "id": "ev_102",
+        "label": "contact_email",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "catering@sweetgreen.com"
+      },
+      {
+        "id": "ev_103",
+        "label": "contact_phone",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "1-800-488-1803"
+      },
+      {
+        "id": "ev_104",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_105",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/",
+        "quote": "Order now"
+      },
+      {
+        "id": "ev_106",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/",
+        "quote": "Order now →"
+      },
+      {
+        "id": "ev_107",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/",
+        "quote": "Order now →"
+      },
+      {
+        "id": "ev_108",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/",
+        "quote": "Gift Cards"
+      },
+      {
+        "id": "ev_109",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/?contact=true",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_110",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/?contact=true",
+        "quote": "Order now"
+      },
+      {
+        "id": "ev_111",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/?contact=true",
+        "quote": "Order now →"
+      },
+      {
+        "id": "ev_112",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/?contact=true",
+        "quote": "Order now →"
+      },
+      {
+        "id": "ev_113",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/?contact=true",
+        "quote": "Gift Cards"
+      },
+      {
+        "id": "ev_114",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_115",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "GET IT →"
+      },
+      {
+        "id": "ev_116",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Order Now →"
+      },
+      {
+        "id": "ev_117",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/menu",
+        "quote": "Gift Cards"
+      },
+      {
+        "id": "ev_118",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/carbon-menu-labeling-methodology",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_119",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/carbon-menu-labeling-methodology",
+        "quote": "Gift Cards"
+      },
+      {
+        "id": "ev_120",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_121",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_122",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_123",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_124",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_125",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_126",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_127",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_128",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_129",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_130",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_131",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_132",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_133",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_134",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_135",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_136",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_137",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_138",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_139",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_140",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_141",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_142",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_143",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_144",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_145",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_146",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_147",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_148",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_149",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_150",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_151",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_152",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_153",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_154",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_155",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_156",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_157",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_158",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_159",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_160",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_161",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_162",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_163",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_164",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_165",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_166",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_167",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_168",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_169",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_170",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_171",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_172",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_173",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_174",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_175",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_176",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_177",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_178",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_179",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_180",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_181",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_182",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_183",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_184",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_185",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_186",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_187",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_188",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_189",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_190",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_191",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_192",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_193",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_194",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_195",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_196",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_197",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_198",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_199",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_200",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_201",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_202",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_203",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_204",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_205",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_206",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_207",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_208",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_209",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_210",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_211",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_212",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_213",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_214",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_215",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_216",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_217",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_218",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_219",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_220",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_221",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_222",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_223",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_224",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_225",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_226",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_227",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_228",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_229",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_230",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_231",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_232",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_233",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_234",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_235",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_236",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_237",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/mission",
+        "quote": "Order"
+      },
+      {
+        "id": "ev_238",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/mission",
+        "quote": "Gift Cards"
+      },
+      {
+        "id": "ev_239",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "Order catering"
+      },
+      {
+        "id": "ev_240",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "Order catering now"
+      },
+      {
+        "id": "ev_241",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "Gift Cards"
+      },
+      {
+        "id": "ev_242",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "Order catering"
+      },
+      {
+        "id": "ev_243",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "Order catering now"
+      },
+      {
+        "id": "ev_244",
+        "label": "payment",
+        "url": "https://www.sweetgreen.com/catering/",
+        "quote": "Gift Cards"
+      },
+      {
+        "id": "ev_245",
+        "label": "location",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "San Francisco, CA 94123 Mon - Thu 10:00am - 11:00pmFri - Sun 10:30am - 11:00pm View Order Marina del Rey 4718 Admiralty Way Marina del Rey, CA 90292 Mon - Sun 10:00am - 10:00pm View Order Market + Battery Coming soon 22 Battery Street San Francisco, CA 94111..."
+      },
+      {
+        "id": "ev_246",
+        "label": "location",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Colorado Boulevard, Suite L-110 Denver, CO 80222 Mon - Sun 10:00am - 9:00pm View Order Connecticut (5) Darien 126 Heights Road Darien, CT 6820 Mon - Sun 10:30am - 9:00pm View Order Farmington Valley 110 Albany Turnpike Suite 911 Canton, CT 6019 Mon - Sun 10:3..."
+      },
+      {
+        "id": "ev_247",
+        "label": "location",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Street, NW Washington, DC 20004 Mon - Fri 10:30am - 8:30pmSat - Sun 10:30am - 4:00pm View Order Union Market 1304 4th Street Northeast Washington, DC 20002 Mon - Fri 10:00am - 8:00pmSat - Sun 10:00am - 7:00pm View Order West End 2238 M St NW Washington, DC 20..."
+      },
+      {
+        "id": "ev_248",
+        "label": "hours",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "San Francisco, CA 94123 Mon - Thu 10:00am - 11:00pmFri - Sun 10:30am - 11:00pm View Order Marina del Rey 4718 Admiralty Way Marina del Rey, CA 90292 Mon - Sun 10:00am - 10:00pm View Order Market + Battery Coming soon 22 Battery Street San Francisco, CA 94111..."
+      },
+      {
+        "id": "ev_249",
+        "label": "hours",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Pasadena, CA 91101 Mon - Thu 10:00am - 9:00pmFri - Sat 10:00am - 10:00pmSun 10:00am - 9:00pm View Order Pruneyard 1875 S."
+      },
+      {
+        "id": "ev_250",
+        "label": "hours",
+        "url": "https://www.sweetgreen.com/locations/",
+        "quote": "Bascom Avenue, Suite 450 Campbell, CA 95008 Mon - Fri 10:00am - 10:00pmSat - Sun 10:30am - 10:00pm View Order Rancho Cucamonga 7811 Monet Ave space 1305 Rancho Cucamonga, CA 91739 Mon - Sun 10:30am - 9:00pm View Order Redwood City Coming soon 1101 El Camino R..."
+      }
+    ]
+  }
+}

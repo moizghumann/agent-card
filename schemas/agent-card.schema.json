@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/schemas/agent-card.schema.json",
+  "title": "Agent Card",
+  "type": "object",
+  "required": [
+    "agentCardVersion",
+    "generatedFrom",
+    "businessIdentity",
+    "interactionModel",
+    "offerings",
+    "operatingContext",
+    "unknowns",
+    "agentInstructions",
+    "sourceEvidence"
+  ],
+  "properties": {
+    "agentCardVersion": { "type": "string" },
+    "generatedFrom": {
+      "type": "object",
+      "required": ["businessMapVersion", "startUrl", "pagesScanned"]
+    },
+    "businessIdentity": {
+      "type": "object",
+      "required": ["name", "description", "likelyTypes", "confidence", "evidence"]
+    },
+    "interactionModel": {
+      "type": "object",
+      "required": [
+        "primaryWebsite",
+        "customerCapabilities",
+        "knownTools",
+        "contactChannels",
+        "paymentOrPurchaseSignals",
+        "authSignals"
+      ]
+    },
+    "offerings": { "type": "array" },
+    "operatingContext": {
+      "type": "object",
+      "required": ["locations", "hours"]
+    },
+    "unknowns": { "type": "array" },
+    "agentInstructions": {
+      "type": "object",
+      "required": ["constraints", "recommendedNextQuestions", "safeAutomationPolicy"]
+    },
+    "sourceEvidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "label", "url", "quote"]
+      }
+    }
+  }
+}
+

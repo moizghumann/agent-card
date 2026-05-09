@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Business Agent Card Scanner</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="workspace">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">Evidence-backed website intelligence</p>
+            <h1>Business Agent Card Scanner</h1>
+          </div>
+          <a class="example-link" href="https://basecamp.com" target="_blank" rel="noreferrer">Example URL</a>
+        </header>
+
+        <form id="scan-form" class="scan-form">
+          <label for="url-input">Business URL</label>
+          <div class="input-row">
+            <input id="url-input" name="url" type="url" placeholder="https://example-business.com" required />
+            <button id="analyze-button" type="submit">Analyze</button>
+          </div>
+        </form>
+
+        <section id="status" class="status" hidden></section>
+
+        <section id="results" class="results" hidden>
+          <div class="result-toolbar">
+            <div>
+              <p class="eyebrow">Scan result</p>
+              <h2 id="business-title">Business map and agent card</h2>
+            </div>
+            <button id="copy-card" type="button">Copy agent card JSON</button>
+          </div>
+
+          <div class="panels">
+            <article class="panel">
+              <div class="panel-heading">
+                <h3>Business Map</h3>
+                <span id="map-count" class="pill"></span>
+              </div>
+              <div id="business-map" class="stack"></div>
+            </article>
+
+            <article class="panel">
+              <div class="panel-heading">
+                <h3>Generated Agent Card</h3>
+                <span id="card-count" class="pill"></span>
+              </div>
+              <pre id="agent-card" class="json-view"></pre>
+            </article>
+          </div>
+        </section>
+      </section>
+    </main>
+    <script src="/app.js" type="module"></script>
+  </body>
+</html>

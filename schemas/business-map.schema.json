@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/schemas/business-map.schema.json",
+  "title": "Business Map",
+  "type": "object",
+  "required": [
+    "mapVersion",
+    "scope",
+    "pagesFound",
+    "business",
+    "offerings",
+    "customerActions",
+    "toolsFormsLinks",
+    "visibleInfo",
+    "missingOrUnclear",
+    "evidenceIndex"
+  ],
+  "properties": {
+    "mapVersion": { "type": "string" },
+    "scope": {
+      "type": "object",
+      "required": ["startUrl", "pagesScanned", "crawlLimit", "method"]
+    },
+    "pagesFound": { "type": "array" },
+    "business": {
+      "type": "object",
+      "required": ["name", "description", "likelyTypes", "confidence", "evidence"]
+    },
+    "offerings": { "type": "array" },
+    "customerActions": { "type": "array" },
+    "toolsFormsLinks": { "type": "array" },
+    "visibleInfo": {
+      "type": "object",
+      "required": ["contact", "payment", "auth", "locations", "hours"]
+    },
+    "missingOrUnclear": { "type": "array" },
+    "evidenceIndex": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "label", "url", "quote"]
+      }
+    }
+  }
+}
+

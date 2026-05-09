@@ -1,0 +1,26 @@
+{
+  "name": "agent-card-business-scanner",
+  "version": "1.0.0",
+  "description": "Scan a public business website, build an evidence-backed business map, and generate an AI-readable agent card.",
+  "type": "module",
+  "scripts": {
+    "setup": "bash scripts/setup.sh",
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node --test",
+    "lint": "bash scripts/lint.sh",
+    "typecheck": "bash scripts/typecheck.sh",
+    "build": "bash scripts/build.sh",
+    "healthcheck": "bash scripts/agent-healthcheck.sh",
+    "validate": "bash scripts/validate.sh",
+    "analyze": "node scripts/analyze.js",
+    "generate:examples": "node scripts/generate-examples.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
