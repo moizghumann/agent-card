@@ -5,6 +5,7 @@
 - [Symphony Workflow](../WORKFLOW.md): agent workflow states and completion behavior.
 - [Product Notes](PRODUCT.md): what the product appears to do from the repository.
 - [Quality Bar](QUALITY.md): validation and handoff expectations.
+- [Harness](HARNESS.md): context-budget and agent-efficiency rules.
 - [Security](SECURITY.md): current security controls and unknowns.
 - [Reliability](RELIABILITY.md): runtime reliability behavior and risks.
 - [Technical Debt](TECH_DEBT.md): known harness and product debt.

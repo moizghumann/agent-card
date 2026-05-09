@@ -42,7 +42,7 @@ Keep runs small. The Linear ticket is the scope boundary.
 
 1. Read `AGENTS.md`.
 2. Read the Linear issue title, description, comments, and acceptance criteria.
-3. Inspect only files relevant to the ticket.
+3. Inspect only files relevant to the ticket. Use progressive disclosure: open deeper docs only when the ticket needs them.
 4. Update or create one Linear workpad/comment with a short plan.
 5. Make the smallest safe change.
 

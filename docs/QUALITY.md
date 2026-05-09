@@ -23,7 +23,7 @@ Current lightweight checks are:
 
 - `npm run lint` performs JavaScript syntax checks.
 - `npm run typecheck` exits successfully when no TypeScript sources or `tsconfig.json` exist; if TypeScript appears later, it requires `tsc --noEmit`.
-- `npm run build` runs the healthcheck because this static Express app has no compile step.
+- `npm run build` documents that this static Express app has no compile step.
 - `npm test` runs the Node test suite.
 
 ## Screenshot And Manual QA
@@ -53,3 +53,9 @@ Call the work blocked when:
 - a missing test/lint/typecheck/build command is required by the task but not configured in the repo
 
 When blocked, report the command, failure, likely cause, and the smallest next step.
+
+## Agent Efficiency
+
+- Avoid rerunning proofs that `npm run validate` already covers unless a failure needs focused debugging.
+- Use targeted tests during implementation, then one full validation before handoff.
+- Treat large generated outputs as validation artifacts, not startup reading material.

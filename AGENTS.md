@@ -8,6 +8,7 @@ This is a Node/Express app that scans public business websites, builds an eviden
 - `ARCHITECTURE.md`: system boundaries and data flow.
 - `docs/index.md`: documentation map.
 - `docs/QUALITY.md`: validation and handoff bar.
+- `docs/HARNESS.md`: agent efficiency and context-budget rules.
 - `WORKFLOW.md`: Symphony workflow states and completion rules.
 
 ## Structure

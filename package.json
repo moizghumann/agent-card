@@ -14,7 +14,8 @@
     "healthcheck": "bash scripts/agent-healthcheck.sh",
     "validate": "bash scripts/validate.sh",
     "analyze": "node scripts/analyze.js",
-    "generate:examples": "node scripts/generate-examples.js"
+    "generate:examples": "node scripts/generate-examples.js",
+    "harness": "node scripts/harness-check.js"
   },
   "dependencies": {
     "cheerio": "^1.0.0",
