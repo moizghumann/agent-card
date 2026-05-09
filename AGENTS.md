@@ -1,6 +1,7 @@
 # Agent Guide
 
-This is a Node/Express app that scans public business websites, builds an evidence-backed business map, and generates an AI-readable agent card.
+This is a Node/Express app that scans public business websites, builds an evidence-backed business
+map, and generates an AI-readable agent card.
 
 ## Read First
 
@@ -34,12 +35,14 @@ This is a Node/Express app that scans public business websites, builds an eviden
 
 ## Environment
 
-The app runs without secrets. Optional OpenRouter refinement uses `OPENROUTER_API_KEY`, `OPENROUTER_MODEL`, and `OPENROUTER_SITE_URL`. Never commit `.env` or real keys.
+The app runs without secrets. Optional OpenRouter refinement uses `OPENROUTER_API_KEY`,
+`OPENROUTER_MODEL`, and `OPENROUTER_SITE_URL`. Never commit `.env` or real keys.
 
 ## Safe Change Rules
 
 - Do not change scanner, business-map, agent-card, API, route, UI, or copy behavior during harness-only work.
-- Treat `src/businessMap.js`, `src/crawler.js`, `src/agentCard.js`, `src/llm*.js`, `public/app.js`, and `examples/*.json` as high-caution areas.
+- Treat `src/businessMap.js`, `src/crawler.js`, `src/agentCard.js`, `src/llm*.js`,
+  `public/app.js`, and `examples/*.json` as high-caution areas.
 - If output behavior changes, update schemas/tests/docs and explain whether `examples/*.json` were regenerated.
 - Prefer deterministic tests and fixtures over live network validation.
 - Keep `AGENTS.md` short; put deeper source-of-truth context in `docs/`.

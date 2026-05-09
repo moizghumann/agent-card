@@ -7,6 +7,7 @@ tracker:
     - In Progress
     - Rework
     - Merging
+    - Needs Review
   terminal_states:
     - Done
     - Canceled
@@ -20,71 +21,71 @@ hooks:
     git clone git@github-personal:moizghumann/agent-card.git .
     npm run setup
 agent:
-  max_concurrent_agents: 2
-  max_turns: 1
+  max_concurrent_agents: 1
+  max_turns: 4
 codex:
   command: codex app-server
   approval_policy: never
-  thread_sandbox: danger-full-access
+  thread_sandbox: workspace-write
   turn_sandbox_policy:
-    type: dangerFullAccess
+    type: workspaceWrite
 ---
 
 # Symphony Agent Workflow
 
 You are working on a Linear issue in a fresh clone of `moizghumann/agent-card`.
-
-Keep runs small. The Linear ticket is the scope boundary.
+The Linear ticket is the scope boundary. Use the smallest lane that satisfies it.
 
 ## Start
 
 1. Read `AGENTS.md`.
 2. Read the Linear issue title, description, comments, and acceptance criteria.
-3. Inspect only files relevant to the ticket. Use progressive disclosure: open deeper docs only when the ticket needs them.
-4. Make the smallest safe change.
-5. Comment with the plan only when the ticket needs clarification or the change is larger than one file.
+3. Choose the docs-only lane when the ticket only changes documentation.
+4. Choose the code lane when app behavior, tests, scripts, schemas, or runtime code change.
+5. Inspect only files allowed by the chosen lane.
 
-Do not read large generated files unless required. Avoid `examples/*.json` except for validation or output-schema work.
+Do not read large generated files unless required. Avoid `examples/*.json` except for
+validation or output-schema work.
 
 ## States
 
-- `Todo`: Symphony moves this to `In Progress` before Codex starts; begin work.
-- `In Progress`: continue work.
-- `Rework`: address review feedback, validate again.
-- `Merging`: final merge/landing state.
+- `Todo`: Symphony may move this to `In Progress`; begin work.
+- `In Progress`: continue scoped work.
+- `Rework`: address review feedback, validate again if relevant.
+- `Needs Review`: handoff is ready for human review.
+- `Merging`: work is approved or ready for landing.
 - Terminal: `Done`, `Canceled`, `Duplicate`.
 
-This Linear team does not expose `Blocked`; leave the issue in its current active state and document the blocker in the workpad.
+This Linear team does not expose `Blocked`; leave blockers in the current active
+state and document the exact blocker in Linear.
 
 ## Required Handoff
 
-Before review or terminal state:
+For documentation-only tickets:
 
-1. Run `npm run validate`.
-2. Commit only ticket-related changes.
-3. Push a ticket branch to `origin`.
-4. Open a draft PR against `main`.
-5. Put the PR URL and validation result in the Linear workpad/comment.
+1. Read only `AGENTS.md`, the Linear ticket, `README.md`, and `package.json` if
+   command names need confirmation.
+2. Edit only the requested documentation files.
+3. Do not inspect `src/`, `examples/`, `schemas/`, `test/`, or `docs/` unless the
+   ticket explicitly asks.
+4. Do not commit, push, or open a PR unless the ticket explicitly asks.
+5. Run `npm run validate` once only if the ticket asks for validation.
+6. Update Linear with changed files, what changed, and validation result or
+   `not run`.
+7. Move the ticket to `Needs Review`.
 
-Branch format:
+For code tickets:
 
-```text
-agent/<linear-id>-short-description
-```
-
-PR body must include:
-
-- Linear issue identifier or URL
-- changed files summary
-- validation command and result
-- remaining gaps or blockers
-
-If no files changed, do not open a PR; update Linear with the validation/result instead.
+1. Read `AGENTS.md`, the Linear ticket, and only relevant files.
+2. Make the smallest safe change.
+3. Run `npm run validate`.
+4. Commit, push, and open a draft PR.
+5. Put the PR URL and validation result in Linear.
 
 ## Repo Rules
 
-- Follow `AGENTS.md` and relevant docs under `docs/`.
 - Do not broaden scope beyond the ticket.
 - Do not change product behavior unless the ticket asks for it.
 - Prefer deterministic tests and `npm run validate` over live network checks.
-- If GitHub auth, `gh`, push access, or `.git` write access fails, document the exact command/error and stop as blocked.
+- If GitHub auth, `gh`, push access, or `.git` write access fails, document the
+  exact command/error and stop as blocked.

@@ -60,12 +60,16 @@ if (workflow) {
     'agent-card-workspaces',
     'git clone git@github-personal:moizghumann/agent-card.git .',
     'approval_policy: never',
-    'thread_sandbox: danger-full-access',
-    'type: dangerFullAccess',
-    'max_turns: 1',
+    'thread_sandbox: workspace-write',
+    'type: workspaceWrite',
+    'max_concurrent_agents: 1',
+    'max_turns: 4',
     'Do not read large generated files unless required',
     'npm run validate',
-    'Open a draft PR against `main`'
+    'For documentation-only tickets:',
+    'Do not commit, push, or open a PR unless the ticket explicitly asks.',
+    'For code tickets:',
+    'open a draft PR'
   ];
   for (const fragment of requiredFragments) {
     if (!workflow.includes(fragment)) {
