@@ -62,6 +62,7 @@ if (workflow) {
     'approval_policy: never',
     'thread_sandbox: danger-full-access',
     'type: dangerFullAccess',
+    'max_turns: 1',
     'Do not read large generated files unless required',
     'npm run validate',
     'Open a draft PR against `main`'

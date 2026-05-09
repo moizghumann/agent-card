@@ -21,7 +21,7 @@ hooks:
     npm run setup
 agent:
   max_concurrent_agents: 2
-  max_turns: 8
+  max_turns: 1
 codex:
   command: codex app-server
   approval_policy: never
@@ -41,14 +41,14 @@ Keep runs small. The Linear ticket is the scope boundary.
 1. Read `AGENTS.md`.
 2. Read the Linear issue title, description, comments, and acceptance criteria.
 3. Inspect only files relevant to the ticket. Use progressive disclosure: open deeper docs only when the ticket needs them.
-4. Update or create one Linear workpad/comment with a short plan.
-5. Make the smallest safe change.
+4. Make the smallest safe change.
+5. Comment with the plan only when the ticket needs clarification or the change is larger than one file.
 
 Do not read large generated files unless required. Avoid `examples/*.json` except for validation or output-schema work.
 
 ## States
 
-- `Todo`: move to `In Progress`, then work.
+- `Todo`: Symphony moves this to `In Progress` before Codex starts; begin work.
 - `In Progress`: continue work.
 - `Rework`: address review feedback, validate again.
 - `Merging`: final merge/landing state.
