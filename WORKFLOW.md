@@ -29,8 +29,7 @@ agent:
   max_turns: 4
 
 codex:
-  command: codex app-server
-  approval_policy: never
+  command: codex --config model_reasoning_effort=low app-server  approval_policy: never
   thread_sandbox: danger-full-access
   turn_sandbox_policy:
     type: dangerFullAccess
