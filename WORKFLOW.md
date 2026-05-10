@@ -9,10 +9,9 @@ tracker:
     - Merging
   terminal_states:
     - Human Review
-    - Blocked
     - Done
+    - Blocked
     - Canceled
-    - Cancelled
     - Duplicate
 
 polling:
@@ -32,9 +31,9 @@ agent:
 codex:
   command: codex app-server
   approval_policy: never
-  thread_sandbox: workspace-write
+  thread_sandbox: danger-full-access
   turn_sandbox_policy:
-    type: workspaceWrite
+    type: dangerFullAccess
 ---
 
 # Symphony Agent Workflow
@@ -43,13 +42,13 @@ You are working on Linear ticket `{{ issue.identifier }}` in a fresh clone of:
 
 `moizghumann/agent-card`
 
-Work only inside the current repository workspace.
+Work inside the current repository workspace.
 
 Do not edit project files outside this workspace. Normal temporary files created by tools are allowed.
 
 The Linear ticket is the scope boundary. Complete the smallest safe version of the requested work.
 
-Every Linear ticket that changes repository files must result in a GitHub pull request unless the task is blocked, impossible, duplicated, or intentionally canceled.
+Every Linear ticket that changes repository files must produce a GitHub pull request. If a PR cannot be created because of auth, git, sandbox, permission, or branch issues, move the ticket to `Blocked`, not `Human Review`.
 
 ## Issue Context
 
@@ -90,9 +89,7 @@ Avoid generic Linear GraphQL exploration.
 7. Push a ticket branch.
 8. Open a draft GitHub PR.
 9. Report the PR and result in Linear.
-10. Move the issue to `Human Review` when ready.
-
-If no repository file changes are needed because the task is blocked, impossible, duplicated, canceled, or purely research/reporting, skip the commit, branch, and PR steps and explain why in Linear.
+10. Move the issue to `Human Review` only after the PR exists.
 
 Do not scan the whole repo.
 
@@ -168,17 +165,44 @@ If GitHub auth, CI, branch protection, or permissions block merging, document th
 
 This is the normal handoff state.
 
-Move the issue to `Human Review` only after a draft PR has been opened or a blocker makes a PR impossible.
+Move the issue to `Human Review` only when:
+
+- repository files changed
+- a branch was pushed
+- a draft PR was opened
+- the PR URL was posted in Linear
+- validation was handled appropriately for the ticket type
 
 After moving to `Human Review`, stop working.
 
 ### Blocked
 
-This is a terminal state for work that cannot produce the required handoff because of missing auth, missing secrets, missing permissions, broken local environment, contradictory acceptance criteria, or another real external blocker.
+Use `Blocked` when the task cannot be completed or a PR cannot be created.
 
-When blocked, post the concise Linear handoff with the exact command or condition that blocked completion and the human action needed to unblock.
+Valid blockers:
 
-### Done, Canceled, Cancelled, Duplicate
+- missing GitHub auth
+- missing `gh` auth
+- push failure
+- branch creation failure
+- commit failure
+- `.git` write failure
+- sandbox prevents git operations
+- missing required secrets
+- missing required permissions
+- impossible or contradictory acceptance criteria
+- local environment prevents required validation
+
+When blocked, update Linear with:
+
+- what failed
+- exact command/error if available
+- what was already changed, if anything
+- exact human action needed
+
+Then move the issue to `Blocked` and stop.
+
+### Done, Canceled, Duplicate
 
 Terminal states.
 
@@ -189,8 +213,6 @@ Do not work on tickets in terminal states.
 Follow `AGENTS.md`.
 
 If `AGENTS.md` conflicts with the ticket, follow `AGENTS.md` and document the conflict.
-
-This workflow's PR requirement overrides any older docs-only guidance in `AGENTS.md`: documentation changes still require a commit, branch, and draft PR when files changed.
 
 Unless explicitly requested, avoid:
 
@@ -265,7 +287,7 @@ Do not hide failed validation.
 
 ## Git and PR Rules
 
-Every ticket should produce a GitHub PR when repository files are changed.
+Every ticket that changes repository files must produce a GitHub PR.
 
 For documentation-only changes:
 
@@ -322,9 +344,15 @@ What changed.
 Risks, blockers, or follow-ups if any.
 ```
 
-If GitHub auth, `gh`, push access, or `.git` write access fails, document the exact command/error in Linear, move the issue to `Blocked`, and stop.
+If branch creation, commit, push, or PR creation fails, do not move to `Human Review`.
 
-If no files changed because the task was impossible, duplicated, canceled, blocked, or purely research/reporting, do not open an empty PR. Document the result in Linear, move the issue to `Human Review` for completed no-change work or `Blocked` for blocked work, and stop.
+Instead:
+
+1. document the exact failure in Linear
+2. move the issue to `Blocked`
+3. stop
+
+If no files changed because the task was impossible, duplicated, canceled, or blocked, do not open an empty PR. Document the result in Linear, move the issue to `Blocked`, and stop.
 
 ## Linear Handoff
 
@@ -339,7 +367,7 @@ What changed.
 
 ## Pull request
 
-PR URL, or reason no PR could be opened.
+PR URL, or exact reason no PR could be opened.
 
 ## Changed files
 
@@ -357,7 +385,7 @@ PR URL, or reason no PR could be opened.
 
 ## Status
 
-Ready for human review, or blocked with exact unblock action.
+Ready for human review / blocked.
 ```
 
 Before moving to `Human Review`, confirm:
@@ -365,15 +393,22 @@ Before moving to `Human Review`, confirm:
 - the task stayed inside scope
 - only relevant files were changed
 - validation was handled appropriately
-- a draft PR was opened when files changed
+- a draft PR was opened
+- the PR URL is in Linear
 - the Linear handoff is clear
 
 Do not move directly to `Done`.
 
-The normal final state is:
+The normal successful final state is:
 
 ```text
 Human Review
+```
+
+The normal failed/incomplete final state is:
+
+```text
+Blocked
 ```
 
 ## Operating Principle
