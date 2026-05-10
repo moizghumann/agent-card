@@ -14,7 +14,7 @@ Open `http://localhost:3000`, enter a public business URL, and click **Analyze**
 
 ## Local Development
 
-Run `npm run setup` when preparing a fresh checkout. Before handing off changes, run `npm run validate`. Future agents should read `AGENTS.md` for repository-specific instructions before editing.
+Run `npm run setup` when preparing a fresh checkout. Before handing off changes, run `npm run validate`. Future agents and contributors should read `AGENTS.md` before editing; it contains repository rules for agents and contributors.
 
 ## OpenRouter
 
