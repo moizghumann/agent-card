@@ -41,9 +41,10 @@ The app runs without secrets. Optional OpenRouter refinement uses `OPENROUTER_AP
 ## Safe Change Rules
 
 - Do not change scanner, business-map, agent-card, API, route, UI, or copy behavior during harness-only work.
+- Symphony workflow runs require a commit, branch, and draft PR whenever repository files change,
+  including documentation-only changes; follow `WORKFLOW.md` for the current handoff contract.
 - Treat `src/businessMap.js`, `src/crawler.js`, `src/agentCard.js`, `src/llm*.js`,
   `public/app.js`, and `examples/*.json` as high-caution areas.
 - If output behavior changes, update schemas/tests/docs and explain whether `examples/*.json` were regenerated.
 - Prefer deterministic tests and fixtures over live network validation.
 - Keep `AGENTS.md` short; put deeper source-of-truth context in `docs/`.
-
